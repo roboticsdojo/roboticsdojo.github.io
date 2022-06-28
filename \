@@ -1,0 +1,25 @@
+update website
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   member.html
+#
+# ------------------------ >8 ------------------------
+# Do not modify or remove the line above.
+# Everything below it will be ignored.
+diff --git a/member.html b/member.html
+index 12c8aeb..6a536b3 100644
+--- a/member.html
++++ b/member.html
+@@ -531,6 +531,7 @@
+                 </figure>
+                 <p class="is-size-5">Allan Okeyo</p>
+                 <p>JKUAT BSc, ME</p>
++                <a href="allan-robotics-dogo.github.io" target="_blank">website</a>
+               </article>
+             </div>
+ 
