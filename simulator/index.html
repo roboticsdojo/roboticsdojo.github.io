@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Dojo-simulator</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <title>Unity WebGL Player | Dojo-simulator</title>
   <link rel="shortcut icon" href="TemplateData/favicon.ico">
   <link rel="stylesheet" href="TemplateData/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -39,7 +39,7 @@
 </head>
 
 <body>
-  <div id="unity-container" class="unity-desktop">
+  <div id="unity-container" class="unity-desktop" style="margin-top: 20px;">
     <canvas id="unity-canvas" width=960 height=600></canvas>
     <div id="unity-loading-bar">
       <div id="unity-logo"></div>
@@ -89,9 +89,9 @@
     var buildUrl = "Build";
     var loaderUrl = buildUrl + "/dojosim.loader.js";
     var config = {
-      dataUrl: buildUrl + "/dojosim.data.gz",
-      frameworkUrl: buildUrl + "/dojosim.framework.js.gz",
-      codeUrl: buildUrl + "/dojosim.wasm.gz",
+      dataUrl: buildUrl + "/dojosim.data",
+      frameworkUrl: buildUrl + "/dojosim.framework.js",
+      codeUrl: buildUrl + "/dojosim.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
       productName: "Dojo-simulator",
@@ -151,50 +151,45 @@
 
 
 
-<div class="hero-head">
-  <nav class="navbar">
+  <div class="hero-head">
+    <nav class="navbar">
       <div class="container">
-          <div class="navbar-brand">
-              <a class="navbar-item" href="/">
-                  <img src="../image/dojo.png" />
-              </a>
-              <span class="navbar-burger" data-target="navbarMenuHeroA">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-              </span>
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img src="../image/dojo.png" />
+          </a>
+          <span class="navbar-burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="about.html">
+              About
+            </a>
+            <a class="navbar-item" href="member.html">
+              Member
+            </a>
+            <a class="navbar-item" href="training.html">
+              Training
+            </a>
+            <a class="navbar-item is-active" href="competition.html">
+              Competition
+            </a>
           </div>
-          <div id="navbarMenuHeroA" class="navbar-menu">
-              <div class="navbar-end">
-                  <a class="navbar-item" href="about.html">
-                      About
-                  </a>
-                  <a class="navbar-item" href="member.html">
-                      Member
-                  </a>
-                  <a class="navbar-item" href="training.html">
-                      Training
-                  </a>
-                  <a class="navbar-item is-active" href="competition.html">
-                      Competition
-                  </a>
-              </div>
-          </div>
+        </div>
       </div>
-  </nav>
-</div>
-
-<section class="section">
-  <div class="container has-text-centered">
-    <h2 class="title">Dojo competition simulator</h2>
-
+    </nav>
   </div>
-</section>
 
-
-
-
-
+  <section class="section">
+    <div class="container has-text-centered">
+      <h2 class="title">Dojo competition simulator</h2>
+      <p>Work in progress</p>
+    </div>
+  </section>
 
 
 </body>
