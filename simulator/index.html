@@ -41,7 +41,8 @@
 </head>
 
 <body>
-  <div id="unity-container" class="unity-desktop" style="margin-top: 40px;">
+  <div class="is-hidden-mobile">
+    <div id="unity-container" class="unity-desktop" style="margin-top: 40px;">
     <canvas id="unity-canvas" width=960 height=600></canvas>
     <div id="unity-loading-bar">
       <div id="unity-logo"></div>
@@ -56,6 +57,8 @@
       <div id="unity-build-title">Dojo-simulator</div>
     </div>
   </div>
+  </div>
+
   <script>
     var container = document.querySelector("#unity-container");
     var canvas = document.querySelector("#unity-canvas");
@@ -151,8 +154,6 @@
     document.body.appendChild(script);
   </script>
 
-
-
   <div class="hero-head">
     <nav class="navbar">
       <div class="container">
@@ -194,6 +195,9 @@
       <h2 class="title">Dojo competition simulator (Work in progress)</h2>
       <p>Use keyboard arrow key ←↑→→ to move the robot</p>
       Source code available: <a target="_blank" href="https://github.com/shohei/dojo-simulator">Github repository</a>
+    <div class="is-hidden-desktop" style="margin-top:50px;">
+      <p>Sorry, the simulator is only available on desktop.</p>
+    </div>
     </div>
   </section>
 
