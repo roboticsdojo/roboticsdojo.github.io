@@ -34,6 +34,13 @@
 
         });
     </script>
+    <style>
+        .table {
+            margin-left: auto;
+            margin-right: auto;
+            width: 700px;
+        }
+    </style>
 </head>
 
 <body>
@@ -65,6 +72,9 @@
                         <a class="navbar-item is-active" href="competition.html">
                             Competition
                         </a>
+                        <a class="navbar-item" href="./simulator">
+                            Simulator
+                        </a>
                     </div>
                 </div>
             </div>
@@ -72,13 +82,109 @@
     </div>
 
     <section class="section">
-        <div class="container has-text-centered">
-          <h2 class="title">Competition</h2>
-
-        <p>The Robotics Dojo competition 2022 is held on 11th and 12th October 2022.</p>
-        <p>Here is the link to the simulator: <a href="./simulator">click here</a></p>
-
+        <div class="container has-text-centered" style="margin-bottom:20px;">
+            <h2 class="title">Competition</h2>
+            <p>Here below is the tentative summary of the competition 2022.</p>
+            <p>(The content in this page will be frequently updated. Check the latest infomation.)</p>
         </div>
+
+        <div class="table-container">
+            <table class="table is-bordered is-striped">
+                <tr>
+                    <th rowspan="2">Date</td>
+                    <td>11th October 2022 (Qualifying round)</td>
+                </tr>
+                <tr>
+                    <td>12th October 2022 (Championship)</td>
+                </tr>
+                <tr>
+                    <th>Venue</td>
+                    <td>iPIC building, JKUAT (TBD)</th>
+                </tr>
+                <tr>
+                    <th rowspan="2">Number of teams</td>
+                    <td>10 (Qualifying round)</td>
+                </tr>
+                <tr>
+                    <td>4 (Championship)</td>
+                </tr>
+                <tr>
+                    <th>Eligibility of teams</td>
+                    <td>A team must comprise <u>at least</u> <b>three</b> members and can have <b>five</b> members <u>at
+                            maximum</u>.</td>
+                </tr>
+                <tr>
+                    <th>Eligibility of members</td>
+                    <td>A team member must be the current student of JKUAT or PAUSTI.</td>
+                </tr>
+            </table>
+        </div>
+
+        <hr>
+        <div class="container has-text-centered" style="margin-bottom:20px;">
+            <h2 class="title">Regulation of robot</h2>
+        </div>
+
+        <div class="table-container">
+            <table class="table is-bordered is-striped">
+                <tr>
+                    <th>Type of robot</td>
+                    <td>Either kit or custom-made </td>
+                </tr>
+                <tr>
+                    <th>Number of wheels</td>
+                    <td>Unlimited </td>
+                </tr>
+                <tr>
+                    <th>Number of motors</td>
+                    <td>Up to 4 motors </td>
+                </tr>
+                <tr>
+                    <th>Dimension</td>
+                    <td>Smaller than 30cm x 30cm x 30 cm (W x D x H) </td>
+                </tr>
+                <tr>
+                    <th>Weight</td>
+                    <td>Up to 2 kg </td>
+                </tr>
+                <tr>
+                    <th>Controller board</td>
+                    <td>Arduino compatible boards (custom board allowed) and Raspberry Pi boards</td>
+                </tr>
+                <tr>
+                    <th>Operation</td>
+                    <td>Fully autonomous</td>
+                </tr>
+            </table>
+        </div>
+
+        <hr>
+        <div class="container has-text-centered" style="margin-bottom:20px;">
+            <h2 class="title">Regulation of race</h2>
+        </div>
+        <div class="columns is-centered">
+         <div class="column is-half content">
+           <p>The robot is supposed tackle four challenges in the playfield.</p>
+            <ol>
+                <li>Line following on circuit</li>
+                <li>Obstacle avoidance</li>
+                <li>Pause & resume</li>
+                <li>Pick & place</li>
+            </ol>
+           <p>The score of each team is evaluated by the performance of addressing each challenge and the time required to complete the race.</p>
+          </div>
+        </div>
+
+        <section class="hero" style="margin-top:20px;">
+        <div class="columns is-centered">
+         <div class="column is-half">
+            <figure class="image">
+               <img src="./image/playfield.webp" />
+            </figure>
+         </div>
+        </div>
+
+
     </section>
 </body>
 
