@@ -1,5 +1,5 @@
 const path = require('path')
-const assetsDir = path.resolve(__dirname, 'public_html/assets');
+const assetsDir = path.resolve(__dirname, 'assets');
  
 module.exports = {
     entry: assetsDir + "/src/app.tsx",
