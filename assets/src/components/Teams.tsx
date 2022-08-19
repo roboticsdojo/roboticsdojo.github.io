@@ -147,7 +147,7 @@ const Teams = () => {
         },
         {
           name: "Koulnodji Elysée", 
-          department: "JKUAT BSc, EEE 3rd", 
+          department: "PAUSTI MSc, MT 2nd", 
           image: "elysee" },
         {
           name: "",
