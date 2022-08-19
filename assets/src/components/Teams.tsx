@@ -379,7 +379,7 @@ const Teams = () => {
                     <p className="is-size-7">
                       {team.leader.department}
                     </p>
-                    <p>Team leader</p>
+                    <p className="is-size-7"><b>Team leader</b></p>
                   </article>
                 </div>
 
