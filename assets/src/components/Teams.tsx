@@ -386,7 +386,7 @@ const Teams = () => {
                 {team.members.map((member: MemberInfo) => {
                   let membersDOM;
                   if (member.name.length === 0) {
-                    membersDOM = <div className="tile is-parent is-mobile-hidden" style={{visibility:"hidden"}}>
+                    membersDOM = <div className="tile is-parent is-hidden-mobile" style={{visibility:"hidden"}}>
                       <article className="tile is-child has-text-centered has-image-centered">
                         <figure className="image is-64x64 container">
                           <img
