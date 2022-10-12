@@ -184,9 +184,9 @@ const Teams = () => {
           image: "aaron",
         },
         {
-          name: "",
-          department: "", 
-          image: "",
+          name: "Ambani Godwin",
+          department: "JKUAT BSc, EEE 5th", 
+          image: "ambani",
         },
       ],
     },
@@ -337,6 +337,36 @@ const Teams = () => {
           name: "",
           department: "", 
           image: "",
+        },
+      ],
+    },
+    {
+      name: "Phoenix",
+      comment: "Enthusiastic to learn and implement principles of robotics engineering",
+      leader: {
+        name: "Emmanuel ",
+        department: "JKUAT BSc, MT 2nd",
+        image: "ryley",
+      },
+      members: [
+        {
+          name: "Ismael Kariuki",
+          department: "JKUAT BSc, MT 2nd",
+          image: "ismael",
+        },
+        {
+          name: "Jeremiah Onyapidi",
+          department: "JKUAT BSc MT 3rd", 
+          image: "jeremiah",
+        },
+        {
+          name: "Robinlee Mwangi", 
+          department: "JKUAT BSc, MT 2nd", 
+          image: "robinlee" },
+        {
+          name: "Glenn Kanyi",
+          department: "JKUAT BSc, MT 2nd", 
+          image: "glenn",
         },
       ],
     },
