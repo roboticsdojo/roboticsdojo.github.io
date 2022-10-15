@@ -342,7 +342,7 @@ const Teams = () => {
     },
     {
       name: "Phoenix",
-      comment: "Enthusiastic to learn and implement principles of robotics engineering",
+      comment: "Keep on insisting",
       leader: {
         name: "Emmanuel ",
         department: "JKUAT BSc, MT 2nd",
@@ -355,9 +355,9 @@ const Teams = () => {
           image: "ismael",
         },
         {
-          name: "Jeremiah Onyapidi",
-          department: "JKUAT BSc MT 3rd", 
-          image: "jeremiah",
+          name: "Hazel Nyaruai",
+          department: "JKUAT BSc MT 2nd", 
+          image: "hazel",
         },
         {
           name: "Robinlee Mwangi", 
