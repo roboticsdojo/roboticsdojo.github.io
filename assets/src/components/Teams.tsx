@@ -344,7 +344,7 @@ const Teams = () => {
       name: "Phoenix",
       comment: "Keep on insisting",
       leader: {
-        name: "Emmanuel ",
+        name: "Emmanuel Kamau",
         department: "JKUAT BSc, MT 2nd",
         image: "ryley",
       },
