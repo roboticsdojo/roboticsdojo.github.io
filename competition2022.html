@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Robotics Dojo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+  </script>
+  <style>
+    .table {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img src="image/dojo.png" />
+          </a>
+          <span class="navbar-burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="about.html">
+              About
+            </a>
+            <a class="navbar-item" href="member.html">
+              Member
+            </a>
+            <a class="navbar-item" href="training.html">
+              Training
+            </a>
+            <a class="navbar-item is-active" href="competition.html">
+              Competition
+            </a>
+            <a class="navbar-item" href="./simulator">
+              Simulator
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <section class="section">
+    <div class="container has-text-centered">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <h2 class="title">Robotics Dojo Competition 2022</h2>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <div class="table-container">
+            <table class="table is-bordered is-striped">
+              <tr>
+                <th rowspan="2">Date</td>
+                <td>17th October 2022 (Mini competition)</td>
+              </tr>
+              <tr>
+                <td>16th November 2022 (Grands Prix)</td>
+              </tr>
+              <tr>
+                <th>Venue</td>
+                <td>Exhibition hall, iPIC building, JKUAT</th>
+              </tr>
+              <tr>
+                <th>Number of teams</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <th>Eligibility of teams</td>
+                <td>A team must comprise <u>at least</u> <b>three</b> members and can have <b>five</b> members <u>at
+                    maximum</u> (i.e. 3≤N≤5)</td>
+              </tr>
+              <tr>
+                <th>Eligibility of members</td>
+                <td>A team member must be the current student of JKUAT or PAUSTI</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <div class="container has-text-centered" style="margin-bottom:20px;">
+        <h2 class="title">Regulation of robot</h2>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <div class="table-container">
+            <table class="table is-bordered is-striped">
+              <tr>
+                <th>Type of robot</td>
+                <td>Either kit or custom-made </td>
+              </tr>
+              <tr>
+                <th>Number of wheels</td>
+                <td>Unlimited </td>
+              </tr>
+              <tr>
+                <th>Number of motors</td>
+                <td>Up to 4 motors </td>
+              </tr>
+              <tr>
+                <th>Dimension</td>
+                <td>Smaller than 30cm x 30cm x 30 cm (W x D x H) </td>
+              </tr>
+              <tr>
+                <th>Weight</td>
+                <td>Up to 2 kg </td>
+              </tr>
+              <tr>
+                <th>Controller board</td>
+                <td>Arduino compatible boards (custom board allowed) and Raspberry Pi boards</td>
+              </tr>
+              <tr>
+                <th>Operation</td>
+                <td>Fully autonomous</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <div class="container has-text-centered" style="margin-bottom:20px;">
+        <h2 class="title">Gamefield</h2>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-half content has-text-left">
+          <p>The robot is supposed tackle four challenges in the gamefield.</p>
+          <ol>
+            <li class="has-text-left">Line following on circuit</li>
+            <li class="has-text-left">Stop and go</li>
+            <li class="has-text-left">Obstacle avoidance</li>
+            <li class="has-text-left">Maze</li>
+          </ol>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <iframe class="is-hidden-mobile" style="width:640px;height:480px;display:block;margin:auto;"
+        src="https://myhub.autodesk360.com/ue29c8464/shares/public/SH9285eQTcf875d3c5393c7157d34868b613?mode=embed"
+        allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <figure class="image">
+            <img src="./image/competition/dimension.webp" />
+          </figure>
+        </div>
+      </div>
+      <!-- end of columns -->
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <p class="is-size-5">Line following circuit</p>
+          <p class="is-size-6">Inspired by Suzuka circuit</p>
+          <figure class="image">
+            <img src="./image/competition/circuit.webp" />
+          </figure>
+        </div>
+      </div>
+      <!-- end of columns -->
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <p class="is-size-5">Stop and go</p>
+          <p class="is-size-6">Freeze for 3 seconds and resume</p>
+          <figure class="image">
+            <img src="./image/competition/endblock.webp" />
+          </figure>
+        </div>
+      </div>
+      <!-- end of columns -->
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <p class="is-size-5">Obstacle avoidance</p>
+          <p class="is-size-6">Yellow line must be passed over</p>
+          <figure class="image">
+            <img src="./image/competition/obstacle.webp" />
+          </figure>
+        </div>
+      </div>
+      <!-- end of columns -->
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <p class="is-size-5">Maze</p>
+          <p class="is-size-6">Exit as fast as possible</p>
+          <figure class="image">
+            <img src="./image/competition/maze.webp" />
+          </figure>
+        </div>
+      </div>
+      <!-- end of columns -->
+
+      <div class="container has-text-centered" style="margin:20px auto;">
+        <h2 class="title">Scoring rules</h2>
+      </div>
+      <div class="container has-text-centered" style="margin:20px auto;">
+        <h2 class="subtitle">The scores are calculated by the following rules.</h2>
+      </div>
+      <div class="columns is-centered">
+        <div class="box column is-half content has-text-left" style="margin-top: 20px;">
+          <ol>
+            <li>Each team has 3 minutes</li>
+            <li>The team's score is updated as the robot passes the checkpoints</li>
+            <li>Retries are allowed from the last checkpoint within the time limit</li>
+          </ol>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+      <div class="columns is-centered" style="margin-top: 20px;">
+        <div class="column is-half">
+          <p class="is-size-5">Checkpoint and gained score</p>
+          <figure class="image">
+            <img src="./image/competition/scoring.webp" />
+          </figure>
+        </div>
+      </div>
+      <!-- end of columns -->
+
+
+      <hr />
+
+      <!-- comment out react -->
+      <div id="teams"></div>
+
+      <hr />
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <h2 id="mini_competition" class="title">Mini competition</h2>
+          <div class="has-text-centered">
+            <p>The mini competition was held on 19th October 2022.</p>
+            <p>Prof. Kiyasu and Prof. Sakaguchi from Nagasaki University joined the mini competition as the judges.</p>
+          </div>
+          <br>
+          <h2 class="subtitle"><b>Winner: Optimus Prime</b></h2>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns  -->
+
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <figure class="image">
+            <img src="./image/competition/optimus_prime.webp" />
+          </figure>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <p class="is-size-5">First round</p>
+          <div class="table-container">
+            <table class="table is-bordered is-striped">
+              <tr>
+                <td>Entry No.</td>
+                <td>Team name</td>
+                <td>Score</td>
+              </tr>
+              <tr>
+                <td>#1</td>
+                <td>Robosapien</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>#2</td>
+                <td>team0804</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>#3</td>
+                <td>Cygnus</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <td>#4</td>
+                <td>SPARK</td>
+                <td>0.5</td>
+              </tr>
+              <tr>
+                <td>#5</td>
+                <td>SEEB</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>#6</td>
+                <td>N3rdH3rd</td>
+                <td>0.5</td>
+              </tr>
+              <tr>
+                <td>#7</td>
+                <td>ELBE</td>
+                <td>No show</td>
+              </tr>
+              <tr>
+                <td>#8</td>
+                <td>Optimus Prime</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <td>#9</td>
+                <td>Aether</td>
+                <td>Cancelled (battery problem)</td>
+              </tr>
+              <tr>
+                <td>#10</td>
+                <td>Agrothinkers</td>
+                <td>No show</td>
+              </tr>
+              <tr>
+                <td>#11</td>
+                <td>RO-04</td>
+                <td>0.5</td>
+              </tr>
+              <tr>
+                <td>#12</td>
+                <td>Phoenix</td>
+                <td>12</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <p class="is-size-5">Final round</p>
+          <div class="table-container">
+            <table class="table is-bordered is-striped">
+              <tr>
+                <td>Entry No.</td>
+                <td>Team name</td>
+                <td>Score</td>
+              </tr>
+              <tr>
+                <td>#3</td>
+                <td>Cygnus</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <td>#8</td>
+                <td>Optimus Prime</td>
+                <td>14</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <hr>
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <h2 id="final_competition" class="title">Final Competition</h2>
+          <div class="has-text-centered">
+            <p>The final competition was held on 16th November 2022.</p>
+            <p>The competition was officially opened by the speech from the Vice Chancellor represented by the Deputy Vice Chancellor (RPE).
+            <p>The judges present were Dr. Kaburu (SCIT), Dr. Njiri (Mechatronics), Dr. Nderu (SCIT), Mr. Oloo (EEE), and Mr. Kimotho (SCIT).</p>
+          </div>
+          <br>
+          <h2 class="subtitle"><b>Winner: Optimus Prime</b></h2>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns  -->
+
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <figure class="image">
+            <img src="./image/competition/group_photo_competition.webp" />
+          </figure>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <p class="is-size-5">Final round</p>
+          <div class="table-container">
+            <table class="table is-bordered is-striped">
+              <tr>
+                <td>Entry No.</td>
+                <td>Team name</td>
+                <td>Score</td>
+              </tr>
+              <tr>
+                <td>#1</td>
+                <td>Robosapien</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>#2</td>
+                <td>team0804</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <td>#3</td>
+                <td>Cygnus</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <td>#4</td>
+                <td>Spark</td>
+                <td>0.5</td>
+              </tr>
+              <tr>
+                <td>#5</td>
+                <td>Teem SEEB</td>
+                <td>No show</td>
+              </tr>
+              <tr>
+                <td>#6</td>
+                <td>N3rd H3rd</td>
+                <td>No show</td>
+              </tr>
+              <tr>
+                <td>#7</td>
+                <td>E.L.B.E</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>#8</td>
+                <td>Optimus prime</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>#9</td>
+                <td>Team Aether</td>
+                <td>No show</td>
+              </tr>
+              <tr>
+                <td>#10</td>
+                <td>Agrothinkers</td>
+                <td>Cancelled (technical issue)</td>
+              </tr>
+              <tr>
+                <td>#11</td>
+                <td>RO-04</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>#12</td>
+                <td>Phoenix</td>
+                <td>14</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+    </div>
+    <!-- end of container -->
+
+  </section>
+
+  <footer class="footer">
+    <div class="columns">
+      <div class="column is-3 is-offset-2">
+        <h2><strong>Robotics Dojo</strong></h2>
+        <ul>
+          <li>is an intensive robotics program that will spearhead the robotics research in
+            Jomo Kenyatta University of Agriculture and Technology (JKUAT) and
+            Pan African University Institute for Basic Sciences Technology
+            and Innovation (PAUSTI)</li>
+        </ul>
+      </div>
+      <div class="column is-3">
+        <h2><strong>Contact</strong></h2>
+        <ul>
+          <li>Email: roboticsdojo@jkuat.ac.ke</li>
+        </ul>
+      </div>
+      <div class="column is-3">
+        <h2><strong>Links</strong></h2>
+        <ul>
+          <li><a href="http://www.jkuat.ac.ke">Jomo Kenyatta University of Agriculture and Technology
+              (JKUAT)</a></li>
+          <li><a href="http://www.jkuat.ac.ke/pauisti/">Pan African University Institute for Basic
+              Sciences Technology and Innovation (PAUSTI)</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script src="assets/dist/app.js" charset="utf-8"></script>
+</body>
+
+</html>
