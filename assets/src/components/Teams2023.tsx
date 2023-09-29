@@ -96,7 +96,7 @@ const Teams2023 = () => {
         {
           name: "Caren Agala",
           department: "JKUAT BSc, MT 5th",
-          image: "ongonga",
+          image: "caren_agala",
         },
         { 
           name: "Gloria Chepngeno", 
@@ -262,113 +262,23 @@ const Teams2023 = () => {
       },
       members: [
         {
-          name: "",
-          department: "",
-          image: "",
+          name: "Keith Muinde",
+          department: "JKUAT BSc, SOMMME 5th",
+          image: "keith_muine",
         },
         {
-          name: "", 
-          department: "", 
-          image: "" },
+          name: "Dennis Karanga", 
+          department: "JKUAT BSc, SOMMME 4th", 
+          image: "dennis_karanga" },
         {
-          name: "",
-          department: "", 
-          image: "",
-        },
-        {
-          name: "",
-          department: "", 
-          image: "",
-        },
-      ],
-    },
-    {
-      name: "Agrothinkers",
-      comment: "If we can't do great things, let's do little things in a great way",
-      leader: {
-        name: "Soumo Emmanuel Arnaud",
-        department: "PAUSTI MSc, MT 2nd",
-        image: "emmanuel",
-      },
-      members: [
-        {
-          name: "Tchato Giovani Vidal",
-          department: "PAUSTI MSc, MT 2nd",
-          image: "tchato",
-        },
-        {
-          name: "Alex Mburu Muchiri", 
-          department: "JKUAT BSc, MT 5th", 
-          image: "alex" },
-        {
-          name: "",
-          department: "", 
-          image: "",
+          name: "Geoffrey Maragia Nyakagwa ",
+          department: "JKUAT BSc, SOMMME 5th", 
+          image: "geoffry_maragia",
         },
         {
           name: "",
           department: "", 
           image: "",
-        },
-      ],
-    },
-    {
-      name: "RO-04",
-      comment: "To never stop learning!",
-      leader: {
-        name: "Sitienei Mercy",
-        department: "JKUAT BSc, EEE 5th",
-        image: "mercy",
-      },
-      members: [
-        {
-          name: "Brian Kusimba",
-          department: "JKUAT BSc, EEE 5th",
-          image: "kusimba",
-        },
-        {
-          name: "Immaculate Munini", 
-          department: "JKUAT BSc, EEE 5th", 
-          image: "munini" },
-        {
-          name: "Onyango Daniel",
-          department: "JKUAT BSc, EEE 5th", 
-          image: "daniel",
-        },
-        {
-          name: "Sebastian Muchui",
-          department: "JKUAT BSc, Physics 1st", 
-          image: "sebastian",
-        },
-      ],
-    },
-    {
-      name: "Phoenix",
-      comment: "Keep on insisting",
-      leader: {
-        name: "Emmanuel Kamau",
-        department: "JKUAT BSc, MT 2nd",
-        image: "ryley",
-      },
-      members: [
-        {
-          name: "Ismael Kariuki",
-          department: "JKUAT BSc, MT 2nd",
-          image: "ismael",
-        },
-        {
-          name: "Hazel Nyaruai",
-          department: "JKUAT BSc MT 2nd", 
-          image: "hazel",
-        },
-        {
-          name: "Robinlee Mwangi", 
-          department: "JKUAT BSc, MT 2nd", 
-          image: "robinlee" },
-        {
-          name: "Glenn Kanyi",
-          department: "JKUAT BSc, MT 2nd", 
-          image: "glenn",
         },
       ],
     },
