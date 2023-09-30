@@ -7,6 +7,14 @@ type TeamsInfo = {
   members: MemberInfo[];
 };
 
+type TeamsRepInfo = {
+  name: string;
+  comment: string;
+  remark: string;
+  leader: LeaderInfo;
+  members: MemberInfo[];
+};
+
 type LeaderInfo = {
   name: string;
   department: string;
@@ -284,6 +292,65 @@ const Teams2023 = () => {
     },
   ];
 
+  const teamsRepInfo: TeamsRepInfo[] = [
+    {
+      name: "Spark",
+      comment: "Standard of Measure",
+      remark: 'Dojo 2023 interns',
+      leader: {
+        name: "Lenny Ng'ang'a",
+        department: "JKUAT BSc, EEE 5th",
+        image: "lenny_nganga",
+      },
+      members: [
+        {
+          name: "Kennedy Wahome",
+          department: "JKUAT BSc, EEE 3rd",
+          image: "",
+        },
+        { name: "", 
+        department: "JKUAT BSc, EEE 3rd", 
+        image: "" },
+        {
+          name: "",
+          department: "JKUAT, EEE 3rd",
+          image: "",
+        },
+        { name: "", department: "", image: "" },
+      ],
+    },
+    {
+      name: "Phoenix",
+      comment: "Keep on insisting",
+      remark: '2nd prize team in Dojo competition 2022',
+      leader: {
+        name: "Emmanuel Kamau",
+        department: "JKUAT BSc, MT 3rd",
+        image: "emmanuel_kamau",
+      },
+      members: [
+        {
+          name: "Ismael Kariuki", 
+          department: "JKUAT BSc, EEE 5th", 
+          image: "ismael_kariuki" },
+        {
+          name: "",
+          department: "JKUAT BSc, EEE 4th",
+          image: "",
+        },
+        {
+          name: "",
+          department: "",
+          image: "",
+        },
+        { 
+          name: "", 
+          department: "", 
+          image: "" },
+      ],
+    },
+  ];
+
   return (
     <>
       <section className="section">
@@ -295,6 +362,72 @@ const Teams2023 = () => {
             <div className="card-content">
 
            {teamsInfo.map((team: TeamsInfo) => {
+            return(
+              <div className="tile is-ancestor box">
+                <div className="tile is-parent">
+                  <article
+                    className="tile is-child has-text-centered has-image-centered"
+                    style={{ alignSelf: "center" }}
+                  >
+                    <p className="is-size-6"><b>{team.name}</b></p>
+                    <p className="is-size-6"><i>{team.comment}</i></p>
+                  </article>
+                </div>
+
+                <div className="tile is-parent">
+                  <article className="tile is-child has-text-centered has-image-centered">
+                    <figure className="image is-64x64 container">
+                      <img
+                        className="is-rounded"
+                        src={
+                          "image/team/2023/" + team.leader.image + ".webp"
+                        }
+                      />
+                    </figure>
+                    <p className="is-size-6">{team.leader.name}</p>
+                    <p className="is-size-7">
+                      {team.leader.department}
+                    </p>
+                    <p className="is-size-7"><b>Team leader</b></p>
+                  </article>
+                </div>
+
+                {team.members.map((member: MemberInfo) => {
+                  let membersDOM;
+                  if (member.name.length === 0) {
+                    membersDOM = <div className="tile is-parent is-hidden-mobile" style={{visibility:"hidden"}}>
+                      <article className="tile is-child has-text-centered has-image-centered">
+                        <figure className="image is-64x64 container">
+                          <img
+                            className="is-rounded"
+                            src="image/member/placeholder.webp"
+                          />
+                        </figure>
+                        <p className="is-size-6"></p>
+                        <p className="is-size-7"></p>
+                      </article>
+                    </div>;
+                  } else {
+                    membersDOM = <div className="tile is-parent">
+                        <article className="tile is-child has-text-centered has-image-centered">
+                          <figure className="image is-64x64 container">
+                            <img
+                              className="is-rounded"
+                              src={"image/team/2023/" + member.image + ".webp"}
+                            />
+                          </figure>
+                          <p className="is-size-6">{member.name}</p>
+                          <p className="is-size-7">{member.department}</p>
+                        </article>
+                      </div>
+                  }
+                return membersDOM;
+                })}
+              </div>
+            )
+           })}
+
+           {teamsRepInfo.map((team: TeamsInfo) => {
             return(
               <div className="tile is-ancestor box">
                 <div className="tile is-parent">
