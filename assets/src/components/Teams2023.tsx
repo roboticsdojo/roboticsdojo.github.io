@@ -22,7 +22,7 @@ type MemberInfo = {
 const Teams2023 = () => {
   const teamsInfo: TeamsInfo[] = [
     {
-      name: "Limit brakers",
+      name: "Limit breakers",
       comment: "Driven by passion, we embrace every challenge",
       leader: {
         name: "Evans Muema",
@@ -39,9 +39,9 @@ const Teams2023 = () => {
         department: "JKUAT BSc, EEE 3rd", 
         image: "nathan_kingori" },
         {
-          name: "",
-          department: "",
-          image: "",
+          name: "Nasir Jacob",
+          department: "JKUAT, EEE 3rd",
+          image: "nasir_jacob",
         },
         { name: "", department: "", image: "" },
       ],
@@ -152,14 +152,14 @@ const Teams2023 = () => {
           department: "JKUAT BSc, EEE 4th", 
           image: "ahmed_rhoble" },
         {
-          name: "",
-          department: "",
-          image: "",
+          name: "Reinhard Kiptoo",
+          department: "JKUAT BSc, ECE 4th",
+          image: "reinhard_kiptoo",
         },
         { 
-          name: "", 
-          department: "", 
-          image: "" },
+          name: "Jerry Joseph Mumo", 
+          department: "JKUAT BSc, ECE 4th", 
+          image: "jerry_joseph" },
       ],
     },
     {
@@ -264,7 +264,7 @@ const Teams2023 = () => {
         {
           name: "Keith Muinde",
           department: "JKUAT BSc, SOMMME 5th",
-          image: "keith_muine",
+          image: "keith_muinde",
         },
         {
           name: "Dennis Karanga", 
@@ -273,7 +273,7 @@ const Teams2023 = () => {
         {
           name: "Geoffrey Maragia Nyakagwa ",
           department: "JKUAT BSc, SOMMME 5th", 
-          image: "geoffry_maragia",
+          image: "geoffrey_maragia",
         },
         {
           name: "",
@@ -313,7 +313,7 @@ const Teams2023 = () => {
                       <img
                         className="is-rounded"
                         src={
-                          "image/team/" + team.leader.image + ".webp"
+                          "image/team/2023/" + team.leader.image + ".webp"
                         }
                       />
                     </figure>
@@ -346,7 +346,7 @@ const Teams2023 = () => {
                           <figure className="image is-64x64 container">
                             <img
                               className="is-rounded"
-                              src={"image/team/" + member.image + ".webp"}
+                              src={"image/team/2023/" + member.image + ".webp"}
                             />
                           </figure>
                           <p className="is-size-6">{member.name}</p>
