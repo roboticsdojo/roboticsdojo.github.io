@@ -141,7 +141,7 @@ const Teams2023 = () => {
         {
           name: "Samuel Njau",
           department: "JKUAT BSc, EEE 4th",
-          image: "placeholder",
+          image: "samuel_njau",
         },
         {
           name: "",
