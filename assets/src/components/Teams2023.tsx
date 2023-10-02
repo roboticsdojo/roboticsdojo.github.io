@@ -379,7 +379,7 @@ const Teams2023 = () => {
         {
           name: "Mwaura Mbugua",
           department: "JKUAT, EEE 5th",
-          image: "placeholder",
+          image: "mwaura_mbugua",
         },
       ],
     },
