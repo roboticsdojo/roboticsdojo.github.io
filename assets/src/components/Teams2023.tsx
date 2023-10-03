@@ -55,7 +55,7 @@ const Teams2023 = () => {
         },
         { name: "Obed Wambugu Gakui", 
         department: "JKUAT, MT 4th", 
-        image: "placeholder" },
+        image: "obed_wambugu" },
       ],
     },
     {
