@@ -61,11 +61,11 @@ const Teams2023 = () => {
     {
       name: "Wajuzi bots",
       comment: "Where technology dances with imagination, extraordinary awaits",
-      leader: {
-        name: "Eddy Lugonze",
-        department: "JKUAT BS EEE 5th",
-        image: "eddy_lugonze",
-      },
+      leader:  {
+          name: "Lusaka Timothy",
+          department: "JKUAT BSc, EEE 4th",
+          image: "lusaka_timothy",
+        },
       members: [
         {
           name: "Peace Victor Kipsang",
@@ -78,14 +78,14 @@ const Teams2023 = () => {
           image: "diana_koech",
         },
         {
-          name: "Lusaka Timothy",
-          department: "JKUAT BSc, EEE 4th",
-          image: "lusaka_timothy",
-        },
-        {
           name: "Joshua Hynes Wambui",
           department: "JKUAT BSc, EEE 4th",
           image: "joshua_hynes",
+        },
+        {
+          name: "Edwin Mburu",
+          department: "JKUAT BSc, EEE 4th",
+          image: "edwin_mburu",
         },
       ],
     },
