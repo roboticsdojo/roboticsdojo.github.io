@@ -230,7 +230,7 @@ const Teams2023 = () => {
           image: "patrick_maina",
         },
         {
-          name: "Karen",
+          name: "Karen Chepngeno",
           department: "JKUAT BSc, TIE 4th",
           image: "karen",
         },
