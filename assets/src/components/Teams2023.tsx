@@ -391,8 +391,8 @@ const Teams2023 = () => {
     <>
       <section className="section">
         <div className="container has-text-centered">
-          <h2 className="title">Teams</h2>
-          <h3 className="subtitle">Competition 2023 </h3>
+          <h2 className="title">Student teams</h2>
+          <h3 className="subtitle">Robotics Dojo Competition 2023 </h3>
 
           <div className="card article">
             <div className="card-content">
