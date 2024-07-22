@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Robotics Dojo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+  </script>
+  <style>
+    .table {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VQZE9122RM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VQZE9122RM');
+</script>
+</head>
+
+<body>
+
+  <div id="navbar"></div> 
+
+  <section class="section">
+    <div class="container has-text-centered">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <h2 class="title">Robotics Dojo Competition 2024</h2>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <div class="table-container">
+            <table class="table is-bordered is-striped">
+              <tr>
+                <th rowspan="1">Date</td>
+                <td>2nd October 2024</td>
+              </tr>
+              <tr>
+                <th>Venue</td>
+                <td>Exhibition hall, iPIC building, JKUAT</th>
+              </tr>
+              <tr>
+                <th>Number of teams</td>
+                <td>8+1 (1 team is Juja school teachers)</td>
+              </tr>
+              <tr>
+                <th>Eligibility of teams</td>
+                <td>A team must comprise <u>at least</u> <b>three</b> members and can have <b>five</b> members <u>at
+                    maximum</u> (i.e. 3≤N≤5)</td>
+              </tr>
+              <tr>
+                <th>Eligibility of members</td>
+                <td>Team must include the current JKUAT/PAUSTI students</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <div class="container has-text-centered" style="margin-bottom:20px;">
+        <h2 class="title">Rules of competition</h2>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <div class="table-container">
+            <p>The rule will be annonouced soon.</p>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+    </div>
+    <!-- end of container -->
+
+    <div class="container has-text-centered" style="margin-bottom:20px;">
+      <h2 class="title">Timeline</h2>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-one-third">
+        <div class="table-container" style="text-align: left;">
+          <p>• Notification of accepted teams: 17th July 2024</p>
+          <p>• Orientation (Online meeting): End of July 2024</p>
+          <p>• Instruction for robot design: End of July to early August</p>
+          <p>• Submission of budget plan: 9th August 2024</p>
+          <p>• Competition: 2nd October 2024</p>
+      </div>
+      <!-- end of column -->
+    </div>
+    <!-- end of columns -->
+  </div>
+  <!-- end of container -->
+
+
+
+
+
+  </section>
+
+  <div id="footer"></div>
+
+  <script src="assets/dist/app.js" charset="utf-8"></script>
+</body>
+
+</html>
