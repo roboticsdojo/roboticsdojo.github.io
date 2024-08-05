@@ -277,6 +277,37 @@ const Teams2024 = () => {
         },
       ],
     },
+    {
+      name: "Pentagon",
+      comment: "Coding the dream, dreaming the code!",
+      leader: {
+        name: "Daniel Karume",
+        department: "JKUAT BSc, Computing 2nd",
+        image: "daniel_karume",
+      },
+      members: [
+        {
+          name: "Joseph Kirika",
+          department: "JKUAT BSc, Computing 2nd",
+          image: "joseph_kirika",
+        },
+        {
+          name: "Peaches Njenga",
+          department: "JKUAT BSc, Computing 2nd",
+          image: "peaches_njenga",
+        },
+        {
+          name: "Geoffrey Chege Kimani",
+          department: "JKUAT BSc, Computing 2nd",
+          image: "geoffrey_chege",
+        },
+        {
+          name: "Irke Konzolo",
+          department: "JKUAT BSc, Computing 2nd",
+          image: "irke_konzolo",
+        },
+      ],
+    },
   ];
 
   const teamsRepInfo: TeamsRepInfo[] = [
