@@ -203,9 +203,9 @@ const Teams2024 = () => {
           image: "gareth_kipkoech",
         },
         {
-          name: "",
-          department: "",
-          image: "",
+          name: "Fundi Brian",
+          department: "JKUAT BSc, Mechatronics 3rd",
+          image: "fundi_brian",
         },
         {
           name: "",
