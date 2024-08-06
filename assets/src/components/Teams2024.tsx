@@ -5,6 +5,8 @@ type TeamsInfo = {
   comment: string;
   leader: LeaderInfo;
   members: MemberInfo[];
+  joint_team: string;
+  role: string;
 };
 
 type TeamsRepInfo = {
@@ -37,6 +39,8 @@ const Teams2024 = () => {
         department: "PAUSTI MSc, Mechatronics 1st",
         image: "washington_kamadi",
       },
+      joint_team: "Joint team 1",
+      role: "Mobile platform",
       members: [
         {
           name: "Felix Wanyoike",
@@ -66,6 +70,8 @@ const Teams2024 = () => {
           department: "JKUAT BSc, EEE 3rd",
           image: "mohamed_ibrahim",
         },
+      joint_team: "Joint team 1",
+      role: "Navigation",
       members: [
         {
           name: "Nathan Kingori",
@@ -97,6 +103,8 @@ const Teams2024 = () => {
         department: "JKUAT BSc, EEE 5th",
         image: "daniel_maithya",
       },
+      joint_team: "Joint team 2",
+      role: "Navigation",
       members: [
         {
           name: "Stacy Kibarak",
@@ -129,6 +137,8 @@ const Teams2024 = () => {
         department: "JKUAT BSc, TIE 4th",
         image: "victoria_rotich",
       },
+      joint_team: "Joint team 2",
+      role: "Mobile platform",
       members: [
         {
           name: "Irene Yegon",
@@ -153,37 +163,6 @@ const Teams2024 = () => {
       ],
     },
     {
-      name: "Syzygy",
-      comment: "In it to win it.",
-      leader: {
-        name: "Brian Macharia",
-        department: "JKUAT BSc, Mechatronics 4th",
-        image: "brian_macharia",
-      },
-      members: [
-        {
-          name: "Kennedy Wahome",
-          department: "JKUAT BSc, EEE 5th",
-          image: "kennedy_wahome",
-        },
-        {
-          name: "Lenny Ng'ang'a",
-          department: "JKUAT Physics alumni, Dojo former intern & alumni",
-          image: "lenny",
-        },
-        {
-          name: "",
-          department: "",
-          image: "",
-        },
-        {
-          name: "",
-          department: "",
-          image: "",
-        },
-      ],
-    },
-    {
       name: "KNIGHTS",
       comment: "Engineers, ignite innovation, conquer challenges, embrace teamwork, excel!",
       leader: {
@@ -191,6 +170,8 @@ const Teams2024 = () => {
         department: "JKUAT BSc, Mechatronics 3rd",
         image: "amos_oniare",
       },
+      joint_team: "Joint team 3",
+      role: "Mobile platform",
       members: [
         {
           name: "Dismas Karimi",
@@ -215,6 +196,39 @@ const Teams2024 = () => {
       ],
     },
     {
+      name: "Pentagon",
+      comment: "Coding the dream, dreaming the code!",
+      leader: {
+        name: "Daniel Karume",
+        department: "JKUAT BSc, Computing 2nd",
+        image: "daniel_karume",
+      },
+      joint_team: "Joint team 3",
+      role: "Navigation",
+      members: [
+        {
+          name: "Joseph Kirika",
+          department: "JKUAT BSc, Computing 2nd",
+          image: "joseph_kirika",
+        },
+        {
+          name: "Peaches Njenga",
+          department: "JKUAT BSc, Computing 2nd",
+          image: "peaches_njenga",
+        },
+        {
+          name: "Geoffrey Chege Kimani",
+          department: "JKUAT BSc, Computing 2nd",
+          image: "geoffrey_chege",
+        },
+        {
+          name: "Irke Konzolo",
+          department: "JKUAT BSc, Computing 2nd",
+          image: "irke_konzolo",
+        },
+      ],
+    },
+    {
       name: "R.O.O.K Droid",
       comment:
         "Creating robots, inspiring futures, achieving greatness together.",
@@ -223,6 +237,8 @@ const Teams2024 = () => {
         department: "JKUAT BSc, Mechatronics 4th",
         image: "felix_ronoh",
       },
+      joint_team: "Joint team 4",
+      role: "Navigation",
       members: [
         {
           name: "Collins Omariba",
@@ -254,6 +270,8 @@ const Teams2024 = () => {
         department: "JKUAT BSc, TIE 4th",
         image: "karen_langat",
       },
+      joint_team: "Joint team 4",
+      role: "Mobile platform",
       members: [
         {
           name: "Nindo Emmanuel",
@@ -278,33 +296,35 @@ const Teams2024 = () => {
       ],
     },
     {
-      name: "Pentagon",
-      comment: "Coding the dream, dreaming the code!",
+      name: "Syzygy",
+      comment: "In it to win it.",
       leader: {
-        name: "Daniel Karume",
-        department: "JKUAT BSc, Computing 2nd",
-        image: "daniel_karume",
+        name: "Brian Macharia",
+        department: "JKUAT BSc, Mechatronics 4th",
+        image: "brian_macharia",
       },
+      joint_team: "Joint team 5",
+      role: "Navigation",
       members: [
         {
-          name: "Joseph Kirika",
-          department: "JKUAT BSc, Computing 2nd",
-          image: "joseph_kirika",
+          name: "Kennedy Wahome",
+          department: "JKUAT BSc, EEE 5th",
+          image: "kennedy_wahome",
         },
         {
-          name: "Peaches Njenga",
-          department: "JKUAT BSc, Computing 2nd",
-          image: "peaches_njenga",
+          name: "Lenny Ng'ang'a",
+          department: "JKUAT Physics alumni, Dojo former intern & alumni",
+          image: "lenny",
         },
         {
-          name: "Geoffrey Chege Kimani",
-          department: "JKUAT BSc, Computing 2nd",
-          image: "geoffrey_chege",
+          name: "",
+          department: "",
+          image: "",
         },
         {
-          name: "Irke Konzolo",
-          department: "JKUAT BSc, Computing 2nd",
-          image: "irke_konzolo",
+          name: "",
+          department: "",
+          image: "",
         },
       ],
     },
@@ -409,6 +429,13 @@ const Teams2024 = () => {
                         </p>
                         <p className="is-size-6">
                           <i>{team.comment}</i>
+                        </p>
+                        <hr/>
+                        <p className="is-size-6">
+                          <b>{team.joint_team}</b>
+                        </p>
+                        <p className="is-size-6">
+                          <p>{team.role}</p>
                         </p>
                       </article>
                     </div>
