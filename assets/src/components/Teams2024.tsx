@@ -296,6 +296,39 @@ const Teams2024 = () => {
       ],
     },
     {
+      name: "Juja school teachers",
+      comment: "",
+      leader: {
+        name: "Ms. Carol Maina ",
+        department: "Computer science",
+        image: "placeholder",
+      },
+      joint_team: "Joint team 5",
+      role: "Mobile platform",
+      members: [
+        {
+          name: "Mr. Benjamin",
+          department: "ICT education",
+          image: "placeholder",
+        },
+        {
+          name: "Mr. Steve Kimani",
+          department: "ICT education",
+          image: "placeholder",
+        },
+        {
+          name: "Ms. Agnes Mungai",
+          department: "Computer science",
+          image: "placeholder",
+        },
+        {
+          name: "Denis Annali",
+          department: "Food Technology & ICT",
+          image: "placeholder",
+        },
+      ],
+    },
+    {
       name: "Syzygy",
       comment: "In it to win it.",
       leader: {
@@ -328,83 +361,42 @@ const Teams2024 = () => {
         },
       ],
     },
+    {
+      name: "DeKUT",
+      comment: "",
+      leader: {
+        name: "Peter Ndiba Muigai",
+        department: "DeKUT BSc, Mechatronics 5th",
+        image: "placeholder",
+      },
+      joint_team: "Joint team 6",
+      role: "Mobile platform/Navigation",
+      members: [
+        {
+          name: "Joe Albert Ngigi",
+          department: "DeKUT BSc, Mechatronics 5th",
+          image: "placeholder",
+        },
+        {
+          name: "Stephen Mwangi Maina",
+          department: "DeKUT BSc, Mechatronics 5th",
+          image: "placeholder",
+        },
+        {
+          name: "Joan Wambui Kabura",
+          department: "DeKUT BSc, Mechatronics 5th",
+          image: "placeholder",
+        },
+        {
+          name: "Nicholas Kamau Ng’ang’a",
+          department: "DeKUT BSc, Mechatronics 5th",
+          image: "placeholder",
+        },
+      ],
+    },
   ];
 
   const teamsRepInfo: TeamsRepInfo[] = [
-    // {
-    //   name: "Phoenix",
-    //   comment: "Keep on insisting",
-    //   remark: "Runner-up team in Dojo competition 2022",
-    //   leader: {
-    //     name: "Brian Macharia",
-    //     department: "JKUAT BSc, MT 3rd",
-    //     image: "brian_macharia",
-    //   },
-    //   members: [
-    //     {
-    //       name: "Hazel Nyaruai",
-    //       department: "JKUAT BSc, MT 3rd",
-    //       image: "hazel_nyaruai",
-    //     },
-    //     {
-    //       name: "Robinlee Mwangi",
-    //       department: "JKUAT BSc, MT 3rd",
-    //       image: "robinlee_mwangi",
-    //     },
-    //     {
-    //       name: "Glenn Kanyi",
-    //       department: "JKUAT BSc, MT 3rd",
-    //       image: "glenn_kanyi",
-    //     },
-    //     {
-    //       name: "Emmanuel Kamau",
-    //       department: "JKUAT BSc, MT 3rd",
-    //       image: "emmanuel_kamau",
-    //     },
-    //   ],
-    // },
-    // {
-    //   name: "Spark",
-    //   comment: "Standard of Measure",
-    //   remark: "Dojo 2024 interns",
-    //   leader: {
-    //     name: "Lenny Ng'ang'a",
-    //     department: "JKUAT BSc, Physics 4th",
-    //     image: "lenny_nganga",
-    //   },
-    //   members: [
-    //     {
-    //       name: "Kennedy Wahome",
-    //       department: "JKUAT BSc, EEE 3rd",
-    //       image: "kennedy_wahome",
-    //     },
-    //     {
-    //       name: "Judy Wangechi",
-    //       department: "JKUAT BSc, EEE 3rd",
-    //       image: "judy_wangechi",
-    //     },
-    //     {
-    //       name: "Mirriam Mogeni",
-    //       department: "JKUAT, EEE 3rd",
-    //       image: "mirriam_mogeni",
-    //     },
-    //     {
-    //       name: "Faith Ngina",
-    //       department: "JKUAT, EEE 3rd",
-    //       image: "faith_ngina",
-    //     },
-    //     {
-    //       name: "Eric Mwangi",
-    //       department: "JKUAT, MT 4th",
-    //       image: "eric_mwangi",
-    //     },
-    //     {
-    //       name: "Mwaura Mbugua",
-    //       department: "JKUAT, EEE 5th",
-    //       image: "mwaura_mbugua",
-    //     },
-    //   ],
-    // },
   ];
 
   interface RoleComponentProps {
@@ -417,7 +409,10 @@ const Teams2024 = () => {
       <p className="is-size-6">
       {(props.role == "Mobile platform")? 
         <p style={{color:'red'}}>Mobile platform</p> :
-        <p style={{color:'blue'}}>Navigation</p>
+         (props.role == "Navigation")? 
+         <p style={{color:'blue'}}>Navigation</p> :
+         <p><p style={{color:'red'}}>Mobile platform</p>
+         <p style={{color:'blue'}}>Navigation</p> </p>
       } 
       </p>
     );
