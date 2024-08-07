@@ -36,7 +36,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://jkuat.ac.ke/projects/africa-ai-japan/">
+              <a href="https://jkuat.ac.ke/project/africaai/">
                 AFRICA-ai-JAPAN Project (JICA)
               </a>
             </li>
