@@ -96,39 +96,6 @@ const Teams2024 = () => {
       ],
     },
     {
-      name: "Team Atom",
-      comment: "Engineering dreams into robotic realities.",
-      leader: {
-        name: "Daniel Maithya",
-        department: "JKUAT BSc, EEE 5th",
-        image: "daniel_maithya",
-      },
-      joint_team: "Joint team 2",
-      role: "Navigation",
-      members: [
-        {
-          name: "Stacy Kibarak",
-          department: "JKUAT BSc, EEE 5th",
-          image: "stacy_kibarak",
-        },
-        {
-          name: "Samuel Njau",
-          department: "JKUAT BSc, EEE 5th",
-          image: "samule_njau",
-        },
-        {
-          name: "Kelvine Chweya",
-          department: "JKUAT BSc, EEE 5th",
-          image: "kelvine_chweya",
-        },
-        {
-          name: "Kings Munene",
-          department: "JKUAT BSc, EEE 5th",
-          image: "kings_munene",
-        },
-      ],
-    },
-    {
       name: "RoboQueens",
       comment:
         "RoboQueens: Together, we build, we inspire, we conquer!",
@@ -159,6 +126,39 @@ const Teams2024 = () => {
           name: "",
           department: "",
           image: "",
+        },
+      ],
+    },
+    {
+      name: "Team Atom",
+      comment: "Engineering dreams into robotic realities.",
+      leader: {
+        name: "Daniel Maithya",
+        department: "JKUAT BSc, EEE 5th",
+        image: "daniel_maithya",
+      },
+      joint_team: "Joint team 2",
+      role: "Navigation",
+      members: [
+        {
+          name: "Stacy Kibarak",
+          department: "JKUAT BSc, EEE 5th",
+          image: "stacy_kibarak",
+        },
+        {
+          name: "Samuel Njau",
+          department: "JKUAT BSc, EEE 5th",
+          image: "samule_njau",
+        },
+        {
+          name: "Kelvine Chweya",
+          department: "JKUAT BSc, EEE 5th",
+          image: "kelvine_chweya",
+        },
+        {
+          name: "Kings Munene",
+          department: "JKUAT BSc, EEE 5th",
+          image: "kings_munene",
         },
       ],
     },
@@ -238,7 +238,7 @@ const Teams2024 = () => {
         image: "felix_ronoh",
       },
       joint_team: "Joint team 4",
-      role: "Navigation",
+      role: "Mobile platform",
       members: [
         {
           name: "Collins Omariba",
@@ -271,7 +271,7 @@ const Teams2024 = () => {
         image: "karen_langat",
       },
       joint_team: "Joint team 4",
-      role: "Mobile platform",
+      role: "Navigation",
       members: [
         {
           name: "Nindo Emmanuel",
@@ -407,6 +407,22 @@ const Teams2024 = () => {
     // },
   ];
 
+  interface RoleComponentProps {
+    role: string;
+  }
+  
+  const RoleComponent: React.FC<RoleComponentProps> = (props) => {
+    console.log(props.role)
+    return (
+      <p className="is-size-6">
+      {(props.role == "Mobile platform")? 
+        <p style={{color:'red'}}>Mobile platform</p> :
+        <p style={{color:'blue'}}>Navigation</p>
+      } 
+      </p>
+    );
+  };
+
   return (
     <>
       <section className="section">
@@ -434,9 +450,7 @@ const Teams2024 = () => {
                         <p className="is-size-6">
                           <b>{team.joint_team}</b>
                         </p>
-                        <p className="is-size-6">
-                          <p>{team.role}</p>
-                        </p>
+                        {RoleComponent(team)}
                       </article>
                     </div>
 
