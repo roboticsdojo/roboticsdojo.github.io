@@ -367,7 +367,7 @@ const Teams2024 = () => {
       leader: {
         name: "Peter Ndiba Muigai",
         department: "DeKUT BSc, Mechatronics 5th",
-        image: "placeholder",
+        image: "peter_ndiba",
       },
       joint_team: "Joint team 6",
       role: "Mobile platform/Navigation",
@@ -375,22 +375,22 @@ const Teams2024 = () => {
         {
           name: "Joe Albert Ngigi",
           department: "DeKUT BSc, Mechatronics 5th",
-          image: "placeholder",
+          image: "albert_ngigi",
         },
         {
           name: "Stephen Mwangi Maina",
           department: "DeKUT BSc, Mechatronics 5th",
-          image: "placeholder",
+          image: "stephen_mwangi",
         },
         {
           name: "Joan Wambui Kabura",
           department: "DeKUT BSc, Mechatronics 5th",
-          image: "placeholder",
+          image: "joan_kabura",
         },
         {
           name: "Nicholas Kamau Ng’ang’a",
           department: "DeKUT BSc, Mechatronics 5th",
-          image: "placeholder",
+          image: "nicholas_nganga",
         },
       ],
     },
