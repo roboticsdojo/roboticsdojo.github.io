@@ -362,7 +362,7 @@ const Teams2024 = () => {
       ],
     },
     {
-      name: "DeKUT",
+      name: "PentaSlam",
       comment: "",
       leader: {
         name: "Peter Ndiba Muigai",
