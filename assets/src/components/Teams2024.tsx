@@ -295,39 +295,39 @@ const Teams2024 = () => {
         },
       ],
     },
-    {
-      name: "Juja school teachers",
-      comment: "",
-      leader: {
-        name: "Ms. Carol Maina ",
-        department: "Computer science",
-        image: "placeholder",
-      },
-      joint_team: "Joint team 5",
-      role: "Mobile platform",
-      members: [
-        {
-          name: "Mr. Benjamin",
-          department: "ICT education",
-          image: "placeholder",
-        },
-        {
-          name: "Mr. Steve Kimani",
-          department: "ICT education",
-          image: "placeholder",
-        },
-        {
-          name: "Ms. Agnes Mungai",
-          department: "Computer science",
-          image: "placeholder",
-        },
-        {
-          name: "Denis Annali",
-          department: "Food Technology & ICT",
-          image: "placeholder",
-        },
-      ],
-    },
+    // {
+    //   name: "Juja school teachers",
+    //   comment: "",
+    //   leader: {
+    //     name: "Ms. Carol Maina ",
+    //     department: "Computer science",
+    //     image: "placeholder",
+    //   },
+    //   joint_team: "Joint team 5",
+    //   role: "Mobile platform",
+    //   members: [
+    //     {
+    //       name: "Mr. Benjamin",
+    //       department: "ICT education",
+    //       image: "placeholder",
+    //     },
+    //     {
+    //       name: "Mr. Steve Kimani",
+    //       department: "ICT education",
+    //       image: "placeholder",
+    //     },
+    //     {
+    //       name: "Ms. Agnes Mungai",
+    //       department: "Computer science",
+    //       image: "placeholder",
+    //     },
+    //     {
+    //       name: "Denis Annali",
+    //       department: "Food Technology & ICT",
+    //       image: "placeholder",
+    //     },
+    //   ],
+    // },
     {
       name: "Syzygy",
       comment: "In it to win it.",
@@ -337,7 +337,7 @@ const Teams2024 = () => {
         image: "brian_macharia",
       },
       joint_team: "Joint team 5",
-      role: "Navigation",
+      role: "Mobile platform/Navigation",
       members: [
         {
           name: "Kennedy Wahome",
