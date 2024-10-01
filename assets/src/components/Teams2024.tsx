@@ -31,37 +31,37 @@ type MemberInfo = {
 
 const Teams2024 = () => {
   const teamsInfo: TeamsInfo[] = [
-    {
-      name: "Team 0804",
-      comment: "Leading from the Front",
-      leader: {
-        name: "Washington Kamadi",
-        department: "PAUSTI MSc, Mechatronics 1st",
-        image: "washington_kamadi",
-      },
-      joint_team: "Joint team 1",
-      role: "Mobile platform",
-      members: [
-        {
-          name: "Felix Wanyoike",
-          department: "JKUAT Mechatronics alumni, Dojo alumni",
-          image: "felix_wanyoike",
-        },
-        {
-          name: "Michael Kimani",
-          department: "JKUAT mechatrnics alumni, Dojo alumni",
-          image: "michael_kimani",
-        },
-        {
-          name: "",
-          department: "",
-          image: "",
-        },
-        { name: "", 
-        department: "", 
-        image: "" },
-      ],
-    },
+    // {
+    //   name: "Team 0804",
+    //   comment: "Leading from the Front",
+    //   leader: {
+    //     name: "Washington Kamadi",
+    //     department: "PAUSTI MSc, Mechatronics 1st",
+    //     image: "washington_kamadi",
+    //   },
+    //   joint_team: "Joint team 1",
+    //   role: "Mobile platform",
+    //   members: [
+    //     {
+    //       name: "Felix Wanyoike",
+    //       department: "JKUAT Mechatronics alumni, Dojo alumni",
+    //       image: "felix_wanyoike",
+    //     },
+    //     {
+    //       name: "Michael Kimani",
+    //       department: "JKUAT mechatrnics alumni, Dojo alumni",
+    //       image: "michael_kimani",
+    //     },
+    //     {
+    //       name: "",
+    //       department: "",
+    //       image: "",
+    //     },
+    //     { name: "", 
+    //     department: "", 
+    //     image: "" },
+    //   ],
+    // },
     {
       name: "Limit Breakers ",
       comment: "Innovation through determination, breaking limits with every step.",
@@ -71,7 +71,7 @@ const Teams2024 = () => {
           image: "mohamed_ibrahim",
         },
       joint_team: "Joint team 1",
-      role: "Navigation",
+      role: "Mobile platform/Navigation",
       members: [
         {
           name: "Nathan Kingori",
