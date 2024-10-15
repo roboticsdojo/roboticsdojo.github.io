@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Robotics Dojo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });
+    </script>
+    <style>
+        .partner img {
+            height: 50px;
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQZE9122RM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-VQZE9122RM');
+    </script>
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+
+    <section class="section">
+        <section class="hero">
+            <div class="columns">
+                <div class="intro column is-8 is-offset-2">
+                    <h2 class="title" style="margin-left:30px;">Research</h2>
+                </div>
+            </div>
+
+            <div class="columns is-centered">
+                <div class="column is-one-third">
+                    <figure class="image">
+                        <img src="./image/competition/2024/assembly_hall.webp" />
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <div class="container" style="margin-top: 20px;">
+            <div class="columns">
+                <div class="column is-offset-2 is-8">
+                    <h1 class="subtitle">
+                        Ongoing research projects
+                    </h1>
+                    <p>
+                     To be updated soon.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <div id="footer"></div>
+
+    <script src="assets/dist/app.js" charset="utf-8"></script>
+</body>
+
+</html>

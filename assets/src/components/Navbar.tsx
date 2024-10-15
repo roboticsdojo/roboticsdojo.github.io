@@ -37,6 +37,9 @@ class App extends Component {
             <Nav.Link className="navbar-item" href="training.html">
               Training
             </Nav.Link>
+            <Nav.Link className="navbar-item" href="research.html">
+              Research 
+            </Nav.Link>
             <div className="navbar-item had-dropdown is-hoverable" style={{padding: '0'}}>
               <div className="navbar-link">Competition</div>
               <div className="navbar-dropdown">
