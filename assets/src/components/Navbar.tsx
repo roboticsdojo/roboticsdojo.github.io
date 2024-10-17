@@ -48,6 +48,9 @@ class App extends Component {
                 <Nav.Link className="navbar-item" href="competition2022.html">2022</Nav.Link>
               </div>
             </div>
+            <Nav.Link className="navbar-item" href="https://roboticsdojo.blogspot.com/" target="_blank">
+              Blog 
+            </Nav.Link>
           </Nav>
         </Navbar>
       </section>
