@@ -12,7 +12,7 @@ class App extends Component {
         >
           <div className="navbar-brand">
             <Nav.Link className="navbar-item" href="/">
-              <img src="image/dojo.png" />
+              <img src="image/logo/logo2.webp" />
             </Nav.Link>
 
             <Nav.Link
