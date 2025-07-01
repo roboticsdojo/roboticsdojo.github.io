@@ -32,7 +32,10 @@ class App extends Component {
               About
             </Nav.Link>
             <Nav.Link className="navbar-item" href="member.html">
-              Member
+              Member 
+            </Nav.Link>
+            <Nav.Link className="navbar-item" href="team.html">
+              Team 
             </Nav.Link>
             <Nav.Link className="navbar-item" href="training.html">
               Training
