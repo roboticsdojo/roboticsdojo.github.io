@@ -48,7 +48,7 @@ const Members = () => {
         {
           name: "Susan Wanjiru Kimani",
           department: "JKUAT BSc, ECE 4th",
-          image: "2025/ruth",
+          image: "2025/susan",
         },
         {
           name: "Mutwa Maryanne Farida",
@@ -56,9 +56,9 @@ const Members = () => {
           image: "2025/farida",
         },
         {
-          name: "",
-          department: "",
-          image: "",
+          name: "Ruth Olumo",
+          department: "JKUAT BSc, ECE 4th",
+          image: "2025/ruth",
         },
       ],
     },
