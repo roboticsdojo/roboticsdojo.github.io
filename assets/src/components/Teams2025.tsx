@@ -343,49 +343,44 @@ const Teams2025 = () => {
 
   const teamsRepInfo: TeamsRepInfo[] = [
     {
-      name: "Interns",
+      name: "Interns 2025",
       comment: "",
       remark: "Dojo interns 2025",
       leader: {
-        name: "",
-        department: "",
-        image: "",
+        name: "Victoria Rotich",
+        department: "JKUAT BSc, TIE 4th",
+        image: "victoria",
       },
       members: [
         {
-          name: "",
-          department: "",
-          image: "",
+          name: "Caleb Wambua",
+          department: "JKUAT BSc, COIN 3rd",
+          image: "caleb",
         },
         {
-          name: "",
-          department: "",
-          image: "",
+          name: "Joshua Njau",
+          department: "JKUAT BSc, MT 3rd",
+          image: "joshua",
         },
         {
-          name: "",
-          department: "",
-          image: "",
+          name: "Fiona Opiyo",
+          department: "JKUAT BSc, TIE 4th",
+          image: "fiona",
         },
         {
-          name: "",
-          department: "",
-          image: "",
+          name: "Susan Wanjiru Kimani",
+          department: "JKUAT BSc, ECE 4th",
+          image: "susan",
         },
         {
-          name: "",
-          department: "",
-          image: "",
+          name: "Mutwa Maryanne Farida",
+          department: "JKUAT BSc, ECE 4th",
+          image: "farida",
         },
         {
-          name: "",
-          department: "",
-          image: "",
-        },
-        {
-          name: "",
-          department: "",
-          image: "",
+          name: "Ruth Olumo",
+          department: "JKUAT BSc, ECE 4th",
+          image: "/ruth",
         },
       ],
     },
@@ -423,7 +418,7 @@ const Teams2025 = () => {
                           <img
                             className="is-rounded"
                             src={
-                              "image/team/2023/" + team.leader.image + ".webp"
+                              "image/team/2025/" + team.leader.image + ".webp"
                             }
                           />
                         </figure>
@@ -463,7 +458,7 @@ const Teams2025 = () => {
                                 <img
                                   className="is-rounded"
                                   src={
-                                    "image/team/2023/" + member.image + ".webp"
+                                    "image/team/2025/" + member.image + ".webp"
                                   }
                                 />
                               </figure>
@@ -506,7 +501,7 @@ const Teams2025 = () => {
                           <img
                             className="is-rounded"
                             src={
-                              "image/team/2023/" + team.leader.image + ".webp"
+                              "image/team/2025/" + team.leader.image + ".webp"
                             }
                           />
                         </figure>
@@ -546,7 +541,7 @@ const Teams2025 = () => {
                                 <img
                                   className="is-rounded"
                                   src={
-                                    "image/team/2023/" + member.image + ".webp"
+                                    "image/team/2025/" + member.image + ".webp"
                                   }
                                 />
                               </figure>
