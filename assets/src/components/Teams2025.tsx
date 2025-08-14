@@ -35,23 +35,23 @@ const Teams2025 = () => {
       leader: {
         name: "Gareth Kipkoech",
         department: "Mechatronics, 4th",
-        image: "",
+        image: "gareth_kipkoech",
       },
       members: [
         {
           name: "Dismas Karimi",
           department: "Mechatronics, 4th",
-          image: "",
+          image: "dismas",
         },
         {
           name: "Fundi Brian",
           department: "Mechatronics, 4th",
-          image: "",
+          image: "fundi_brian",
         },
         {
           name: "Amos Owino",
           department: "Mechatronics, 4th",
-          image: "",
+          image: "amos_owino",
         },
         {
           name: "",
@@ -66,28 +66,28 @@ const Teams2025 = () => {
       leader: {
         name: "Nathan Kingori Machira",
         department: "Electronics and computer engineering, 5th",
-        image: "",
+        image: "nathan_kingori",
       },
       members: [
         {
           name: "Idris Nasir Jacob",
           department: "Electronics and computer engineering, 5th",
-          image: "",
+          image: "idris",
         },
         {
           name: "Mohamed Ibrahim Tuke",
           department: "Electronics and computer engineering, 5th",
-          image: "",
+          image: "tuke",
         },
         {
           name: "Junior Iregi Mwenja",
           department: "Electrical and electronics engineering, 3rd",
-          image: "",
+          image: "junior",
         },
         {
           name: "Brumley Ogari",
           department: "Electrical and Electronics engineering, 3rd",
-          image: "",
+          image: "brumley",
         },
       ]
     },
@@ -97,28 +97,28 @@ const Teams2025 = () => {
       leader: {
         name: "Shalom Kiptanui Jepkosgei",
         department: "Mechatronics, 3rd",
-        image: "",
+        image: "shalom",
       },
       members: [
         {
           name: "Annette Elizabeth Oundo",
           department: "Mechatronics, 3rd",
-          image: "",
+          image: "annette",
         },
         {
           name: "Lennox Kinyua",
           department: "Mechatronics, 3rd",
-          image: "",
+          image: "lennox",
         },
         {
           name: "Bakita Omwenga",
           department: "Mechatronics, 3rd",
-          image: "",
+          image: "bakita",
         },
         {
           name: "Beverly Lasoi",
           department: "Mechatronics, 3rd",
-          image: "",
+          image: "beverly",
         },
       ]
     },
@@ -128,28 +128,28 @@ const Teams2025 = () => {
       leader: {
         name: "Erick Gitonga Muriu",
         department: "Mechatronics, 4th",
-        image: "",
+        image: "erick_gitonga",
       },
       members: [
         {
           name: "John Khaemba Sumba",
           department: "Mechanical Engineering, 2nd",
-          image: "",
+          image: "john_sumba",
         },
         {
           name: "Prudence Nduta Njoroge",
           department: "Mechanical Engineering, 2nd",
-          image: "",
+          image: "prudence",
         },
         {
           name: "Glenn Kanyi Gatiba ",
           department: "Mechatronics, 4th",
-          image: "",
+          image: "glenn",
         },
         {
           name: "Allen Kizito Wachio",
           department: "Mechatronics, 4th",
-          image: "",
+          image: "allen",
         },
       ]
     },
@@ -159,28 +159,28 @@ const Teams2025 = () => {
       leader: {
         name: "Abraham Winston ",
         department: "Electrical and Electronics Engineering, 3rd",
-        image: "",
+        image: "abraham",
       },
       members: [
         {
           name: "Cephas Nyongesa",
           department: "Electrical and Electronics Engineering, 3rd",
-          image: "",
+          image: "cephas",
         },
         {
           name: "Basil Karanja Karenjo",
           department: "Electrical and Electronics Engineering, 3rd",
-          image: "",
+          image: "basil",
         },
         {
           name: "George Odhiambo",
           department: "Electrical and Electronic Engineering, 3rd",
-          image: "",
+          image: "george_odhiambo",
         },
         {
           name: "Simon Gitonga",
           department: "Electrical and Electronic Engineering, 3rd",
-          image: "",
+          image: "simon_gitonga",
         },
       ]
     },
@@ -190,28 +190,28 @@ const Teams2025 = () => {
       leader: {
         name: "Sandra Biaki Keya",
         department: "Electrical and electronics engineering, 3rd",
-        image: "",
+        image: "sandra",
       },
       members: [
         {
           name: "Cherotich Faith",
           department: "Electrical and electronics engineering, 3rd",
-          image: "",
+          image: "cherotich",
         },
         {
           name: "Collins Chemweno",
           department: "Mechanical Engineering, 1st",
-          image: "",
+          image: "collins",
         },
         {
           name: "Stephen David Oduo ",
           department: "Mechanical Engineering, 4th",
-          image: "",
+          image: "stephen",
         },
         {
           name: "Sylvia Njoki Waweru",
           department: "Electrical and Electronics Engineering, 3rd",
-          image: "",
+          image: "sylvia",
         },
       ]
     },
@@ -221,28 +221,28 @@ const Teams2025 = () => {
       leader: {
         name: "Allan Masibo",
         department: "The University of Nairobi, Engineering, 3rd",
-        image: "",
+        image: "allan_masibo",
       },
       members: [
         {
           name: "Jordan Kisera",
           department: "The University of Nairobi, Engineering, 2nd",
-          image: "",
+          image: "jordan",
         },
         {
           name: "Kyule Musindi",
           department: "The University of Nairobi, Engineering, 2nd",
-          image: "",
+          image: "kyule",
         },
         {
           name: "Faith Kalondu",
           department: "The University of Nairobi, Engineering, 2nd",
-          image: "",
+          image: "faith",
         },
         {
           name: "Leah Chemosit",
           department: "The University of Nairobi, Engineering, 4th",
-          image: "",
+          image: "leah",
         },
       ]
     },
@@ -252,28 +252,28 @@ const Teams2025 = () => {
       leader: {
         name: "Jerry Kiche",
         department: "EEE, 4th",
-        image: "",
+        image: "jerry",
       },
       members: [
         {
           name: "Clinton Sabi",
           department: "Mechanical engineering, 4th",
-          image: "",
+          image: "clinton",
         },
         {
           name: "Nathan Waweru",
           department: "Mechanical Engineering, 4th",
-          image: "",
+          image: "nathan_waweru",
         },
         {
           name: "Japheth Musera",
           department: "Mechanical Engineering, 4th",
-          image: "",
+          image: "japheth_musera",
         },
         {
           name: "Nyabuto Kainda Obonyo Martha",
           department: "Mechanical Engineering, 4th",
-          image: "",
+          image: "nyabuto",
         },
       ]
     },
@@ -283,18 +283,18 @@ const Teams2025 = () => {
       leader: {
         name: "IAN NYANGWARA ",
         department: "The Technical University of Kenya, Dip Tech Mechatronics Engineering, 3rd",
-        image: "",
+        image: "ian",
       },
       members: [
         {
           name: "Anilla wambaki",
           department: "JKUAT Mechatronics, 2nd",
-          image: "",
+          image: "anilla",
         },
         {
           name: "Desmond Mose",
           department: "The Technical University of Kenya, Dip Tech Mechatronics, 3rd",
-          image: "",
+          image: "placeholder",
         },
         {
           name: "",
@@ -314,28 +314,28 @@ const Teams2025 = () => {
       leader: {
         name: "Michael Machohi",
         department: "Dedan Kimathi University of Technology, Mechatronics, 5th",
-        image: "",
+        image: "michael",
       },
       members: [
         {
           name: "Brian Kiprono Samoei",
           department: "Dedan Kimathi University of Technology, Mechatronics Engineering, 5th",
-          image: "",
+          image: "brian_kiprono",
         },
         {
           name: "Paul Migwi",
           department: "Dedan Kimathi University of Technology, Mechatronics Engineering, 5th",
-          image: "",
+          image: "paul",
         },
         {
           name: "Zebby Arnold Akach",
           department: "Dedan Kimathi University of Technology, Mechatronics Engineering, 5th",
-          image: "",
+          image: "zebby",
         },
         {
           name: "James Gathirwa",
           department: "Dedan Kimathi University of Technology, Mechatronics Engineering, 5th",
-          image: "",
+          image: "james",
         },
       ]
     },
