@@ -294,7 +294,7 @@ const Teams2025 = () => {
         {
           name: "Desmond Mose",
           department: "The Technical University of Kenya, Dip Tech Mechatronics, 3rd",
-          image: "placeholder",
+          image: "desmond_1",
         },
         {
           name: "",
