@@ -18,7 +18,7 @@ const membersDOM = document.getElementById('members')
 if (teamsDOM !== null) render(<Teams />, teamsDOM)
 if (teams2023DOM !== null) render(<Teams2023 />, teams2023DOM)
 if (teams2024DOM !== null) render(<Teams2024 />, teams2024DOM)
-if (teams2025DOM !== null) render(<Teams2025 />, teams2024DOM)
+if (teams2025DOM !== null) render(<Teams2025 />, teams2025DOM)
 if (membersDOM !== null) render(<Members />, membersDOM)
 if (navbarDOM !== null) render(<App />, navbarDOM)
 
