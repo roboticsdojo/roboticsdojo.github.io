@@ -281,7 +281,7 @@ const Teams2025 = () => {
       name: "404_now Found ",
       comment: "Tech is the best thing to happen to humanity and making it better is our responsibility. ",
       leader: {
-        name: "IAN NYANGWARA ",
+        name: "Ian Nyangwara",
         department: "The Technical University of Kenya, Dip Tech Mechatronics Engineering, 3rd",
         image: "ian",
       },
@@ -344,7 +344,7 @@ const Teams2025 = () => {
   const teamsRepInfo: TeamsRepInfo[] = [
     {
       name: "The Obsidian Order",
-      comment: "",
+      comment: "Where stone meets code, nothing breaks",
       remark: "Dojo interns 2025",
       leader: {
         name: "Victoria Rotich",
