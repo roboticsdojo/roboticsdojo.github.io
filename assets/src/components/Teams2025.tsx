@@ -34,23 +34,23 @@ const Teams2025 = () => {
       comment: "Human Inspiration, Robotic Precision",
       leader: {
         name: "Gareth Kipkoech",
-        department: "Mechatronics, 4th",
+        department: "JKUAT Mechatronics, 4th",
         image: "gareth_kipkoech",
       },
       members: [
         {
           name: "Dismas Karimi",
-          department: "Mechatronics, 4th",
+          department: "JKUAT Mechatronics, 4th",
           image: "dismas",
         },
         {
           name: "Fundi Brian",
-          department: "Mechatronics, 4th",
+          department: "JKUAT Mechatronics, 4th",
           image: "fundi_brian",
         },
         {
           name: "Amos Owino",
-          department: "Mechatronics, 4th",
+          department: "JKUAT Mechatronics, 4th",
           image: "amos_owino",
         },
         {
@@ -65,28 +65,28 @@ const Teams2025 = () => {
       comment: "Excited to learn, build, and compete at our best",
       leader: {
         name: "Nathan Kingori Machira",
-        department: "Electronics and computer engineering, 5th",
+        department: "JKUAT Electronics and computer engineering, 5th",
         image: "nathan_kingori",
       },
       members: [
         {
           name: "Idris Nasir Jacob",
-          department: "Electronics and computer engineering, 5th",
+          department: "JKUAT Electronics and computer engineering, 5th",
           image: "idris",
         },
         {
           name: "Mohamed Ibrahim Tuke",
-          department: "Electronics and computer engineering, 5th",
+          department: "JKUAT Electronics and computer engineering, 5th",
           image: "tuke",
         },
         {
           name: "Junior Iregi Mwenja",
-          department: "Electrical and electronics engineering, 3rd",
+          department: "JKUAT Electrical and electronics engineering, 3rd",
           image: "junior",
         },
         {
           name: "Brumley Ogari",
-          department: "Electrical and Electronics engineering, 3rd",
+          department: "JKUAT Electrical and Electronics engineering, 3rd",
           image: "brumley",
         },
       ]
@@ -96,28 +96,28 @@ const Teams2025 = () => {
       comment: "We code, We innovate, We build, We push boundaries.",
       leader: {
         name: "Shalom Kiptanui Jepkosgei",
-        department: "Mechatronics, 3rd",
+        department: "JKUAT Mechatronics, 3rd",
         image: "shalom",
       },
       members: [
         {
           name: "Annette Elizabeth Oundo",
-          department: "Mechatronics, 3rd",
+          department: "JKUAT Mechatronics, 3rd",
           image: "annette",
         },
         {
           name: "Lennox Kinyua",
-          department: "Mechatronics, 3rd",
+          department: "JKUAT Mechatronics, 3rd",
           image: "lennox",
         },
         {
           name: "Bakita Omwenga",
-          department: "Mechatronics, 3rd",
+          department: "JKUAT Mechatronics, 3rd",
           image: "bakita",
         },
         {
           name: "Beverly Lasoi",
-          department: "Mechatronics, 3rd",
+          department: "JKUAT Mechatronics, 3rd",
           image: "beverly",
         },
       ]
@@ -127,28 +127,28 @@ const Teams2025 = () => {
       comment: "Driven by passion, built for excellence, engineered to win.",
       leader: {
         name: "Erick Gitonga Muriu",
-        department: "Mechatronics, 4th",
+        department: "JKUAT Mechatronics, 4th",
         image: "erick_gitonga",
       },
       members: [
         {
           name: "John Khaemba Sumba",
-          department: "Mechanical Engineering, 2nd",
+          department: "JKUAT Mechanical Engineering, 2nd",
           image: "john_sumba",
         },
         {
           name: "Prudence Nduta Njoroge",
-          department: "Mechanical Engineering, 2nd",
+          department: "JKUAT Mechanical Engineering, 2nd",
           image: "prudence",
         },
         {
           name: "Glenn Kanyi Gatiba ",
-          department: "Mechatronics, 4th",
+          department: "JKUAT Mechatronics, 4th",
           image: "glenn",
         },
         {
           name: "Allen Kizito Wachio",
-          department: "Mechatronics, 4th",
+          department: "JKUAT Mechatronics, 4th",
           image: "allen",
         },
       ]
@@ -158,28 +158,28 @@ const Teams2025 = () => {
       comment: "We came, we saw, we programmed, and tasks were automated",
       leader: {
         name: "Abraham Winston ",
-        department: "Electrical and Electronics Engineering, 3rd",
+        department: "JKUAT Electrical and Electronics Engineering, 3rd",
         image: "abraham",
       },
       members: [
         {
           name: "Cephas Nyongesa",
-          department: "Electrical and Electronics Engineering, 3rd",
+          department: "JKUAT Electrical and Electronics Engineering, 3rd",
           image: "cephas",
         },
         {
           name: "Basil Karanja Karenjo",
-          department: "Electrical and Electronics Engineering, 3rd",
+          department: "JKUAT Electrical and Electronics Engineering, 3rd",
           image: "basil",
         },
         {
           name: "George Odhiambo",
-          department: "Electrical and Electronic Engineering, 3rd",
+          department: "JKUAT Electrical and Electronic Engineering, 3rd",
           image: "george_odhiambo",
         },
         {
           name: "Simon Gitonga",
-          department: "Electrical and Electronic Engineering, 3rd",
+          department: "JKUAT Electrical and Electronic Engineering, 3rd",
           image: "simon_gitonga",
         },
       ]
@@ -189,28 +189,28 @@ const Teams2025 = () => {
       comment: "We are intelligent engineers who do everything with honour.",
       leader: {
         name: "Sandra Biaki Keya",
-        department: "Electrical and electronics engineering, 3rd",
+        department: "JKUAT Electrical and electronics engineering, 3rd",
         image: "sandra",
       },
       members: [
         {
           name: "Cherotich Faith",
-          department: "Electrical and electronics engineering, 3rd",
+          department: "JKUAT Electrical and electronics engineering, 3rd",
           image: "cherotich",
         },
         {
           name: "Collins Chemweno",
-          department: "Mechanical Engineering, 1st",
+          department: "JKUAT Mechanical Engineering, 1st",
           image: "collins",
         },
         {
           name: "Stephen David Oduo ",
-          department: "Mechanical Engineering, 4th",
+          department: "JKUAT Mechanical Engineering, 4th",
           image: "stephen",
         },
         {
           name: "Sylvia Njoki Waweru",
-          department: "Electrical and Electronics Engineering, 3rd",
+          department: "JKUAT Electrical and Electronics Engineering, 3rd",
           image: "sylvia",
         },
       ]
@@ -257,22 +257,22 @@ const Teams2025 = () => {
       members: [
         {
           name: "Clinton Sabi",
-          department: "Mechanical engineering, 4th",
+          department: "JKUAT Mechanical engineering, 4th",
           image: "clinton",
         },
         {
           name: "Nathan Waweru",
-          department: "Mechanical Engineering, 4th",
+          department: "JKUAT Mechanical Engineering, 4th",
           image: "nathan_waweru",
         },
         {
           name: "Japheth Musera",
-          department: "Mechanical Engineering, 4th",
+          department: "JKUAT Mechanical Engineering, 4th",
           image: "japheth_musera",
         },
         {
           name: "Nyabuto Kainda Obonyo Martha",
-          department: "Mechanical Engineering, 4th",
+          department: "JKUAT Mechanical Engineering, 4th",
           image: "nyabuto",
         },
       ]
@@ -343,44 +343,44 @@ const Teams2025 = () => {
 
   const teamsRepInfo: TeamsRepInfo[] = [
     {
-      name: "Interns 2025",
+      name: "The Obsidian Order",
       comment: "",
       remark: "Dojo interns 2025",
       leader: {
         name: "Victoria Rotich",
-        department: "JKUAT BSc, TIE 4th",
+        department: "JKUAT Telecommunication and Information Engineering, 4th",
         image: "victoria",
       },
       members: [
         {
           name: "Caleb Wambua",
-          department: "JKUAT BSc, COIN 3rd",
+          department: "JKUAT Physics, Control and Instrumentation, 3rd",
           image: "caleb",
         },
         {
           name: "Joshua Njau",
-          department: "JKUAT BSc, MT 3rd",
+          department: "JKUAT Mechatronics, 3rd",
           image: "joshua",
         },
         {
           name: "Fiona Opiyo",
-          department: "JKUAT BSc, TIE 4th",
+          department: "JKUAT Telecommunication and Information Engineering, 4th",
           image: "fiona",
         },
         {
           name: "Susan Wanjiru Kimani",
-          department: "JKUAT BSc, ECE 4th",
+          department: "JKUAT Electrical and Computer Engineering, 4th",
           image: "susan",
         },
         {
           name: "Mutwa Maryanne Farida",
-          department: "JKUAT BSc, ECE 4th",
+          department: "JKUAT Electrical and Computer Engineering, 4th",
           image: "farida",
         },
         {
           name: "Ruth Olumo",
-          department: "JKUAT BSc, ECE 4th",
-          image: "/ruth",
+          department: "JKUAT Electrical and Computer Engineering, 4th",
+          image: "ruth",
         },
       ],
     },
