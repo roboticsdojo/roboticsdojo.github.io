@@ -132,11 +132,6 @@ const Teams2025 = () => {
       },
       members: [
         {
-          name: "Erick Gitonga Muriu",
-          department: "JKUAT Mechatronics, 4th",
-          image: "erick_gitonga",
-        },
-        {
           name: "Prudence Nduta Njoroge",
           department: "JKUAT Mechanical Engineering, 2nd",
           image: "prudence",
@@ -150,6 +145,11 @@ const Teams2025 = () => {
           name: "Allen Kizito Wachio",
           department: "JKUAT Mechatronics, 4th",
           image: "allen",
+        },
+        {
+          name: "",
+          department: "",
+          image: "",
         },
       ],
     },
