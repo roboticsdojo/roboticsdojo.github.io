@@ -58,7 +58,7 @@ const Teams2025 = () => {
           department: "",
           image: "",
         },
-      ]
+      ],
     },
     {
       name: "Limit Breakers",
@@ -89,7 +89,7 @@ const Teams2025 = () => {
           department: "JKUAT Electrical and Electronics engineering, 3rd",
           image: "brumley",
         },
-      ]
+      ],
     },
     {
       name: "Robosync",
@@ -120,21 +120,21 @@ const Teams2025 = () => {
           department: "JKUAT Mechatronics, 3rd",
           image: "beverly",
         },
-      ]
+      ],
     },
     {
       name: "Tetsuzakura Knights🌸",
       comment: "Driven by passion, built for excellence, engineered to win.",
       leader: {
-        name: "Erick Gitonga Muriu",
-        department: "JKUAT Mechatronics, 4th",
-        image: "erick_gitonga",
+        department: "JKUAT Mechanical Engineering, 2nd",
+        name: "John Khaemba Sumba",
+        image: "john_sumba",
       },
       members: [
         {
-          name: "John Khaemba Sumba",
-          department: "JKUAT Mechanical Engineering, 2nd",
-          image: "john_sumba",
+          name: "Erick Gitonga Muriu",
+          department: "JKUAT Mechatronics, 4th",
+          image: "erick_gitonga",
         },
         {
           name: "Prudence Nduta Njoroge",
@@ -151,7 +151,7 @@ const Teams2025 = () => {
           department: "JKUAT Mechatronics, 4th",
           image: "allen",
         },
-      ]
+      ],
     },
     {
       name: "Automated Architects ",
@@ -182,7 +182,7 @@ const Teams2025 = () => {
           department: "JKUAT Electrical and Electronic Engineering, 3rd",
           image: "simon_gitonga",
         },
-      ]
+      ],
     },
     {
       name: "Neural Knights",
@@ -213,7 +213,7 @@ const Teams2025 = () => {
           department: "JKUAT Electrical and Electronics Engineering, 3rd",
           image: "sylvia",
         },
-      ]
+      ],
     },
     {
       name: "The Loose Screw Crew",
@@ -244,7 +244,7 @@ const Teams2025 = () => {
           department: "The University of Nairobi, Engineering, 4th",
           image: "leah",
         },
-      ]
+      ],
     },
     {
       name: "Jabari",
@@ -275,14 +275,16 @@ const Teams2025 = () => {
           department: "JKUAT Mechanical Engineering, 4th",
           image: "nyabuto",
         },
-      ]
+      ],
     },
     {
       name: "404_now Found ",
-      comment: "Tech is the best thing to happen to humanity and making it better is our responsibility. ",
+      comment:
+        "Tech is the best thing to happen to humanity and making it better is our responsibility. ",
       leader: {
         name: "Ian Nyangwara",
-        department: "The Technical University of Kenya, Dip Tech Mechatronics Engineering, 3rd",
+        department:
+          "The Technical University of Kenya, Dip Tech Mechatronics Engineering, 3rd",
         image: "ian",
       },
       members: [
@@ -293,7 +295,8 @@ const Teams2025 = () => {
         },
         {
           name: "Desmond Mose",
-          department: "The Technical University of Kenya, Dip Tech Mechatronics, 3rd",
+          department:
+            "The Technical University of Kenya, Dip Tech Mechatronics, 3rd",
           image: "desmond",
         },
         {
@@ -306,7 +309,7 @@ const Teams2025 = () => {
           department: "",
           image: "",
         },
-      ]
+      ],
     },
     {
       name: "DeKUT AMR",
@@ -319,25 +322,29 @@ const Teams2025 = () => {
       members: [
         {
           name: "Brian Kiprono Samoei",
-          department: "Dedan Kimathi University of Technology, Mechatronics Engineering, 5th",
+          department:
+            "Dedan Kimathi University of Technology, Mechatronics Engineering, 5th",
           image: "brian_kiprono",
         },
         {
           name: "Paul Migwi",
-          department: "Dedan Kimathi University of Technology, Mechatronics Engineering, 5th",
+          department:
+            "Dedan Kimathi University of Technology, Mechatronics Engineering, 5th",
           image: "paul",
         },
         {
           name: "Zebby Arnold Akach",
-          department: "Dedan Kimathi University of Technology, Mechatronics Engineering, 5th",
+          department:
+            "Dedan Kimathi University of Technology, Mechatronics Engineering, 5th",
           image: "zebby",
         },
         {
           name: "James Gathirwa",
-          department: "Dedan Kimathi University of Technology, Mechatronics Engineering, 5th",
+          department:
+            "Dedan Kimathi University of Technology, Mechatronics Engineering, 5th",
           image: "james",
         },
-      ]
+      ],
     },
   ];
 
@@ -364,7 +371,8 @@ const Teams2025 = () => {
         },
         {
           name: "Fiona Opiyo",
-          department: "JKUAT Telecommunication and Information Engineering, 4th",
+          department:
+            "JKUAT Telecommunication and Information Engineering, 4th",
           image: "fiona",
         },
         {
