@@ -251,7 +251,7 @@ const Teams2025 = () => {
       comment: "Conquer the code, champion the challenge, claim victory",
       leader: {
         name: "Jerry Kiche",
-        department: "EEE, 4th",
+        department: "JKUAT EEE, 4th",
         image: "jerry",
       },
       members: [
@@ -271,9 +271,9 @@ const Teams2025 = () => {
           image: "japheth_musera",
         },
         {
-          name: "Nyabuto Kainda Obonyo Martha",
-          department: "JKUAT Mechanical Engineering, 4th",
-          image: "nyabuto",
+          name: "Ian Ndirangu",
+          department: "JKUAT Electronic and Computer Engineering, 5th",
+          image: "ian_ndirangu",
         },
       ],
     },
