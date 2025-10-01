@@ -6,15 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Robotics Dojo</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link
-    rel="shortcut icon"
-    href="./image/logo/favicon.ico"
-    type="image/x-icon"
-    />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
+    <link rel="shortcut icon" href="./image/logo/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="static/poster.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
 
     <script>
@@ -44,23 +38,223 @@
 
         });
     </script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VQZE9122RM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQZE9122RM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-VQZE9122RM');
-</script>
+        gtag('config', 'G-VQZE9122RM');
+    </script>
 </head>
 
 <body>
-    
-   <div id="navbar"></div>
+
+    <div id="navbar"></div>
 
     <section class="section">
-        
+
+        <div class="container has-text-centered" style="margin-bottom:20px;">
+            <h2 class="title">Training 2025</h2>
+        </div>
+
+        <div class="columns is-centered has-text-centered is-one-half" style="margin-bottom:20px;">
+            <div class="column is-half">
+                <h2 class="subtitle">Schedule</h2>
+                <table class="table is-bordered is-fullwidth">
+                    <thead>
+                        <tr>
+                            <th>TOPIC</th>
+                            <th>TRAINER</th>
+                            <th>DATE</th>
+                            <th>TIME</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Robot Design &amp; Computer Aided Design (CAD)</td>
+                            <td>Joshua Njau</td>
+                            <td>19th August</td>
+                            <td>11 AM</td>
+                        </tr>
+                        <tr>
+                            <td>Introduction to the Raspberry Pi</td>
+                            <td>Maryanne Farida</td>
+                            <td>19th August</td>
+                            <td>12 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Introduction to Robot Operating System (ROS)</td>
+                            <td>Victoria Rotich</td>
+                            <td>19th August</td>
+                            <td>1 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Introduction to RViz &amp; URDF</td>
+                            <td>Susan Kimani</td>
+                            <td>20th August</td>
+                            <td>11 AM</td>
+                        </tr>
+                        <tr>
+                            <td>Introduction to the LiDAR</td>
+                            <td>Joshua Njau</td>
+                            <td>20th August</td>
+                            <td>12 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Introduction to Git &amp; GitHub</td>
+                            <td>Ruth Olumo</td>
+                            <td>20th August</td>
+                            <td>1 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="columns is-centered">
+            <div class="column is-two-thirds has-text-centered">
+                <h2 class="subtitle">Presentation slides</h2>
+                <p style="margin-bottom:20px;">The tutorials are also on the <a href="https://roboticsdojo.substack.com/" target="_blank">Robotics Dojo Blog</a></p>
+                <div class="columns is-multiline is-centered">
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/3dp.pdf" target="_blank">
+                                <img src="files/training/2025/thumbnail/3dp.webp" alt="Image 1">
+                            </a>
+                            <div class="slide-caption">3D printing</div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/cad.pdf" target="_blank">
+                                <img src="files/training/2025/thumbnail/cad.webp" alt="Image 2">
+                            </a>
+                            <div class="slide-caption">Robot Design and Computer-Aided Design (CAD)</div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/git_github.pdf" target="_blank">
+                                <img src="files/training/2025/thumbnail/git_github.webp" alt="Image 3">
+                            </a>
+                            <div class="slide-caption">Introduction to Git and GitHub</div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/gz_ign_1.pdf" target="_blank">
+                                <img src="files/training/2025/thumbnail/gz_ign_1.webp" alt="Image 5">
+                            </a>
+                            <div class="slide-caption">Comprehensive Simulation with Gazebo Ignition Fortress (Part I)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/gz_ign_2.pdf" target="_blank">
+                                <img src="files/training/2025/thumbnail/gz_ign_2.webp" alt="Image 5">
+                            </a>
+                            <div class="slide-caption">Comprehensive Simulation with Gazebo Ignitiona Fortress (Part II)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/gz_ign_installation.pdf"
+                                target="_blank">
+                                <img src="files/training/2025/thumbnail/gz_ign_installation.webp" alt="Image 6">
+                            </a>
+                            <div class="slide-caption">Getting Started with Gazebo Fortress Installation & Setup</div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/lidar.pdf" target="_blank">
+                                <img src="files/training/2025/thumbnail/lidar.webp" alt="Image 6">
+                                <!-- </a> -->
+                                <div class="slide-caption">Introduction to LiDAR</div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/machine_vision.pdf" target="_blank">
+                                <img src="files/training/2025/thumbnail/machine_vision.webp" alt="Image 6">
+                            </a>
+                            <div class="slide-caption">Machine Vision</div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/mapping_teleop_hardware.pdf"
+                                target="_blank">
+                                <img src="files/training/2025/thumbnail/mapping_teleop_hardware.webp" alt="Image 6">
+                            </a>
+                            <div class="slide-caption">ROS2 Mapping, Teleop & Hardware</div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/ros2.pdf" target="_blank">
+                                <img src="files/training/2025/thumbnail/ros2.webp" alt="Image 6">
+                            </a>
+                            <div class="slide-caption">Introduction to ROS2</div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/mobile_robot_design.pdf"
+                                target="_blank">
+                                <img src="files/training/2025/thumbnail/mobile_robot_design.webp" alt="Image 6">
+                            </a>
+                            <div class="slide-caption">Mobile Robot Design</div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/rpi.pdf" target="_blank">
+                                <img src="files/training/2025/thumbnail/rpi.webp" alt="Image 6">
+                            </a>
+                            <div class="slide-caption">Raspberry Pi</div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/slam_nav.pdf" target="_blank">
+                                <img src="files/training/2025/thumbnail/slam_nav.webp" alt="Image 6">
+                            </a>
+                            <div class="slide-caption">Introduction to SLAM & Navigation</div>
+                        </div>
+                    </div>
+
+                    <div class="column is-3">
+                        <div class="box">
+                            <a class="slide-tile-image" href="files/training/2025/urdf_rviz.pdf" target="_blank">
+                                <img src="files/training/2025/thumbnail/urdf_rviz.webp" alt="Image 6">
+                            </a>
+                            <div class="slide-caption">Introduction to URDF and RViz</div>
+                        </div>
+                    </div>
+
+                </div> <!-- /.columns inner -->
+            </div> <!-- /.column is-half -->
+        </div> <!-- /.columns outer -->
+
+
         <div class="columns">
             <div class="intro column is-8 is-offset-2">
                 <h2 class="title">Training 2024</h2>
@@ -74,7 +268,8 @@
         <div class="columns">
             <div class="intro column is-8 is-offset-2">
                 <h2 class="title">Special training 2023</h2>
-                <h3 class="subtitle">Training by Prof. Kiyasu and Prof. Sakaguchi from Nagasaki University (October 2023)</h3>
+                <h3 class="subtitle">Training by Prof. Kiyasu and Prof. Sakaguchi from Nagasaki University (October
+                    2023)</h3>
                 <section class="hero">
                     <div class="columns is-centered">
                         <div class="column is-half">
@@ -87,8 +282,10 @@
                 <p style="margin-top:40px;">The training was held from 2nd to 5th October 2023.</p>
                 <p>The lecture slides are available:</p>
                 <ol style="margin-left: 20px;">
-                  <li><a href="./files/lecture/2023_rpi_prof_sakaguchi.pdf">Raspberry Pi training material by Prof. Sakaguchi</a></li>
-                  <li><a href="./files/lecture/2023_facial_recognition_prof_kiyasu.pdf">Inside of Facial Recognition by Prof. Kiyasu</a></li>
+                    <li><a href="./files/lecture/2023_rpi_prof_sakaguchi.pdf">Raspberry Pi training material by Prof.
+                            Sakaguchi</a></li>
+                    <li><a href="./files/lecture/2023_facial_recognition_prof_kiyasu.pdf">Inside of Facial Recognition
+                            by Prof. Kiyasu</a></li>
                 </ol>
             </div>
         </div>
@@ -96,7 +293,8 @@
         <div class="columns">
             <div class="intro column is-8 is-offset-2">
                 <h2 class="title">Special training 2022</h2>
-                <h3 class="subtitle">Training by Prof. Kiyasu and Prof. Sakaguchi from Nagasaki University (October 2022)</h3>
+                <h3 class="subtitle">Training by Prof. Kiyasu and Prof. Sakaguchi from Nagasaki University (October
+                    2022)</h3>
                 <section class="hero">
                     <div class="columns is-centered">
                         <div class="column is-half">
