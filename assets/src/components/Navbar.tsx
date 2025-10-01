@@ -46,6 +46,7 @@ class App extends Component {
             <div className="navbar-item had-dropdown is-hoverable" style={{padding: '0'}}>
               <div className="navbar-link">Competition</div>
               <div className="navbar-dropdown">
+                <Nav.Link className="navbar-item" href="competition2025.html">2025</Nav.Link>
                 <Nav.Link className="navbar-item" href="competition2024.html">2024</Nav.Link>
                 <Nav.Link className="navbar-item" href="competition2023.html">2023</Nav.Link>
                 <Nav.Link className="navbar-item" href="competition2022.html">2022</Nav.Link>

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Robotics Dojo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="shortcut icon" href="./image/logo/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="static/poster.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+  </script>
+  <style>
+    .table {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQZE9122RM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-VQZE9122RM');
+  </script>
+</head>
+
+<body>
+
+  <div id="navbar"></div>
+
+  <section class="section">
+    <div class="container has-text-centered">
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <h2 class="title">Robotics Dojo Competition 2025</h2>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <figure class="image">
+            <img src="./image/competition/2025/lab.webp" />
+          </figure>
+          <figure class="image" style="margin-top: 20px;">
+            <img src="./image/competition/2025/gamefield.webp" />
+          </figure>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <div class="table-container">
+            <table class="table is-bordered is-striped" style="text-align: left;">
+              <tr>
+                <th rowspan="1">Date</td>
+                <td>8th October 2025</td>
+              </tr>
+              <tr>
+                <th>Venue</td>
+                <td>Assembly hall, JKUAT</th>
+              </tr>
+              <tr>
+                <th>Number of teams</td>
+                <td>8 (JKUAT)<br />
+                  1 (DeKUT)<br />
+                  1 (UoN)<br />
+                  1 (TUK)
+                </td>
+              </tr>
+              <tr>
+                <th>Eligibility of teams</td>
+                <td>A team must comprise <u>at least</u> <b>three</b> members and can have <b>five</b> members <u>at
+                    maximum</u> (i.e. 3≤N≤5)</td>
+              </tr>
+              <tr>
+                <th>Eligibility of members</td>
+                <td>Team must include the current JKUAT/PAUSTI students<br />
+                  (Guest teams: DeKUT, UoN, TUK)</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <div class="container has-text-centered" style="margin-bottom:20px;">
+        <h2 class="title">Theme</h2>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <div class="table-container">
+            <p>Autonomous Mobile Robot with LiDAR</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <figure class="image">
+            <img src="./image/competition/2024/comp2.webp" />
+          </figure>
+          <figure class="image" style="margin-top: 20px;">
+            <img src="./image/competition/2024/map.webp" />
+          </figure>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <div class="container has-text-centered" style="margin-bottom:20px;">
+        <h2 class="title">Rules</h2>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-5" style="border: solid 1px black;">
+          <figure class="image" style="border: solid 1px black;">
+            <img src="./image/competition/2024/rule/rule1.webp" />
+          </figure>
+          <figure class="image" style="border: solid 1px black;">
+            <img src="./image/competition/2024/rule/rule2.webp" />
+          </figure>
+          <figure class="image" style="border: solid 1px black;">
+            <img src="./image/competition/2024/rule/rule3.webp" />
+          </figure>
+          <figure class="image" style="border: solid 1px black;">
+            <img src="./image/competition/2024/rule/rule4.webp" />
+          </figure>
+        </div>
+        <!-- end of column -->
+      </div>
+      <!-- end of columns -->
+
+      <div class="container has-text-centered" style="margin-bottom:20px;">
+        <h2 class="title">Template download</h2>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <div class="table-container">
+            <p>Technical design paper template <a
+                href="files/template/Technical-Design-Paper-Instructions-and-Template_Robotics_Dojo2024.docx"
+                target="_blank">(MS Word : 62KB)</a></p>
+            <p class="is-size-6">(Template adapted from RobotX.org)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container has-text-centered" style="margin-bottom:20px;">
+        <h2 class="title">Timeline</h2>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <div class="table-container" style="text-align: left;">
+            <p>• Notification of accepted teams: 17th July 2024</p>
+            <p>• Orientation (Online meeting): End of July 2024</p>
+            <p>• Instruction for robot design: End of July to early August</p>
+            <p>• Submission of budget plan: 16th August 2024</p>
+            <p>• Submission of poster and technical design paper: 26th September 2025</p>
+            <p>• Competition: 8th October 2025</p>
+          </div>
+          <!-- end of column -->
+        </div>
+        <!-- end of columns -->
+      </div>
+      <!-- end of container -->
+
+      <div class="columns is-centered">
+        <div class="column is-5">
+          <div class="embed-container"
+            style="position: relative; padding-bottom: 59.27%; height: 0; overflow: hidden; max-width: 100%;">
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+              src="https://docs.google.com/presentation/d/e/2PACX-1vTznMLw8kx0d2O7DqvTgQl62tt8gzHs53rROG1JZa39tK1TvdbnWWH9C0K2_YHjROuqKaNiER3aRnjD/embed?start=false&loop=false&delayms=60000"
+              frameborder="0" width="960" height="569" allowfullscreen="true" webkitallowfullscreen="true"
+              mozallowfullscreen="true"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="container has-text-centered" style="margin-bottom:20px;">
+        <h2 class="title">Technical papers</h2>
+        <p>Click to open the PDF papers</p>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="columns is-multiline is-centered">
+
+            <!-- 1 -->
+            <div class="column is-4">
+              <div class="box">
+                <a class="paper-tile-image" href="files/technical_paper/2025/1_knights.pdf" target="_blank">
+                  <img src="files/technical_paper/2025/thumbnail/1_knights.webp" alt="Image 1">
+                </a>
+                <div class="paper-caption">1. Knights</div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="column is-4">
+              <div class="box">
+                <a class="paper-tile-image" href="files/technical_paper/2025/2_limit_breakers.pdf" target="_blank">
+                  <img src="files/technical_paper/2025/thumbnail/2_limit_breakers.webp" alt="Image 2">
+                </a>
+                <div class="paper-caption">2. Limit Breakers</div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="column is-4">
+              <div class="box">
+                <a class="paper-tile-image" href="files/technical_paper/2025/3_robosync.pdf" target="_blank">
+                  <img src="files/technical_paper/2025/thumbnail/3_robosync.webp" alt="Image 3">
+                </a>
+                <div class="paper-caption">3. Robosync</div>
+              </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="column is-4">
+              <div class="box">
+                <a class="paper-tile-image" href="files/technical_paper/2025/4_tetsuzakura_knights.pdf" target="_blank">
+                  <img src="files/technical_paper/2025/thumbnail/4_tetsuzakura_knights.webp" alt="Image 4">
+                </a>
+                <div class="paper-caption">4. Tetsuzakura Knights</div>
+              </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="column is-4">
+              <div class="box">
+                <a class="paper-tile-image" href="files/technical_paper/2025/5_automated_architects.pdf" target="_blank">
+                  <img src="files/technical_paper/2025/thumbnail/5_automated_architects.webp" alt="Image 5">
+                </a>
+                <div class="paper-caption">5. Automated Architects</div>
+              </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="column is-4">
+              <div class="box">
+                <a class="paper-tile-image" href="files/technical_paper/2025/6_neural_knights.pdf" target="_blank">
+                  <img src="files/technical_paper/2025/thumbnail/6_neural_knights.webp" alt="Image 6">
+                </a>
+                <div class="paper-caption">6. Neural Knights</div>
+              </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="column is-4">
+              <div class="box">
+                <a class="paper-tile-image" href="files/technical_paper/2025/7_loose_screw_crew.pdf" target="_blank">
+                  <img src="files/technical_paper/2025/thumbnail/7_loose_screw_crew.webp" alt="Image 6">
+                </a>
+                <div class="paper-caption">7. Loose Screw Crew</div>
+              </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="column is-4">
+              <div class="box">
+                <a class="paper-tile-image" href="files/technical_paper/2025/8_jabari.pdf" target="_blank">
+                  <img src="files/technical_paper/2025/thumbnail/8_jabari.webp" alt="Image 6">
+                </a>
+                <div class="paper-caption">8. Jabari</div>
+              </div>
+            </div>
+
+            <!-- 9 -->
+            <div class="column is-4">
+              <div class="box">
+                <a class="paper-tile-image" href="files/technical_paper/2025/9_404_now_found.pdf" target="_blank">
+                  <img src="files/technical_paper/2025/thumbnail/9_404_now_found.webp" alt="Image 6">
+                </a>
+                <div class="paper-caption">9. 404_now found</div>
+              </div>
+            </div>
+
+            <!-- 10 -->
+            <div class="column is-4">
+              <div class="box">
+                <a class="paper-tile-image" href="files/technical_paper/2025/10_dekut_amr.pdf" target="_blank">
+                  <img src="files/technical_paper/2025/thumbnail/10_dekut_amr.webp" alt="Image 6">
+                </a>
+                <div class="paper-caption">10. DeKUT AMR</div>
+              </div>
+            </div>
+
+            <!-- 11 -->
+            <div class="column is-4">
+              <div class="box">
+                <a class="paper-tile-image" href="files/technical_paper/2025/11_obsidian_order.pdf" target="_blank">
+                  <img src="files/technical_paper/2025/thumbnail/11_obsidian_order.webp" alt="Image 6">
+                </a>
+                <div class="paper-caption">11. Obsidian Order</div>
+              </div>
+            </div>
+
+          </div> <!-- /.columns inner -->
+        </div> <!-- /.column is-half -->
+      </div> <!-- /.columns outer -->
+
+
+      <div class="container has-text-centered" style="margin-bottom:20px;">
+        <h2 class="title">Posters</h2>
+        <p>Click to open the PDF posters</p>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-two-thirds">
+          <div class="columns is-multiline is-centered">
+
+            <!-- 1 -->
+            <div class="column is-6">
+              <div class="box">
+                <a class="poster-tile-image" href="files/poster/2025/1_knights.pdf" target="_blank">
+                  <img src="files/poster/2025/thumbnail/1_knights.webp" alt="Image 1">
+                </a>
+                <div class="poster-caption">1. KNIGHTS</div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="column is-6">
+              <div class="box">
+                <a class="poster-tile-image" href="files/poster/2025/2_limit_breakers.pdf" target="_blank">
+                  <img src="files/poster/2025/thumbnail/2_limit_breakers.webp" alt="Image 2">
+                </a>
+                <div class="poster-caption">2. Limit Breakers</div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="column is-6">
+              <div class="box">
+                <a class="poster-tile-image" href="files/poster/2025/3_robosync.pdf" target="_blank">
+                  <img src="files/poster/2025/thumbnail/3_robosync.webp" alt="Image 3">
+                </a>
+                <div class="poster-caption">3. Robosync</div>
+              </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="column is-6">
+              <div class="box">
+                <a class="poster-tile-image" href="files/poster/2025/4_tetsuzakura_knights.pdf" target="_blank">
+                  <img src="files/poster/2025/thumbnail/4_tetsuzakura_knights.webp" alt="Image 5">
+                </a>
+                <div class="poster-caption">4. Tetsuzakura Knights</div>
+              </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="column is-6">
+              <div class="box">
+                <a class="poster-tile-image" href="files/poster/2025/5_automated_architects.pdf" target="_blank">
+                  <img src="files/poster/2025/thumbnail/5_automated_architects.webp" alt="Image 5">
+                </a>
+                <div class="poster-caption">5. Automate Architects</div>
+              </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="column is-6">
+              <div class="box">
+                <a class="poster-tile-image" href="files/poster/2025/6_neural_knights.pdf" target="_blank">
+                  <img src="files/poster/2025/thumbnail/6_neural_knights.webp" alt="Image 6">
+                </a>
+                <div class="poster-caption">6. Neural Knights</div>
+              </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="column is-6">
+              <div class="box">
+                <!-- <a class="poster-tile-image" href="files/poster/2025/6_neural_knights.pdf" target="_blank"> -->
+                  <img src="files/poster/2025/thumbnail/coming_soon.webp" alt="Image 6">
+                <!-- </a> -->
+                <div class="poster-caption">7. Loose Screw Crew</div>
+              </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="column is-6">
+              <div class="box">
+                <a class="poster-tile-image" href="files/poster/2025/8_jabari.pdf" target="_blank">
+                  <img src="files/poster/2025/thumbnail/8_jabari.webp" alt="Image 6">
+                </a>
+                <div class="poster-caption">8. Jabari</div>
+              </div>
+            </div>
+
+            <!-- 9 -->
+            <div class="column is-6">
+              <div class="box">
+                <a class="poster-tile-image" href="files/poster/2025/9_404-now-found.pdf" target="_blank">
+                  <img src="files/poster/2025/thumbnail/9_404-now-found.webp" alt="Image 6">
+                </a>
+                <div class="poster-caption">9. 404_now Found</div>
+              </div>
+            </div>
+
+            <!-- 10 -->
+            <div class="column is-6">
+              <div class="box">
+                <a class="poster-tile-image" href="files/poster/2025/10_dekut_amr.pdf" target="_blank">
+                  <img src="files/poster/2025/thumbnail/10_dekut_amr.webp" alt="Image 6">
+                </a>
+                <div class="poster-caption">10. DeKUT AMR</div>
+              </div>
+            </div>
+
+            <!-- 10 -->
+            <div class="column is-6">
+              <div class="box">
+                <a class="poster-tile-image" href="files/poster/2025/11_obsidian_order.pdf" target="_blank">
+                  <img src="files/poster/2025/thumbnail/11_obsidian_order.webp" alt="Image 6">
+                </a>
+                <div class="poster-caption">11. Obsidian Order</div>
+              </div>
+            </div>
+
+          </div> <!-- /.columns inner -->
+        </div> <!-- /.column is-half -->
+      </div> <!-- /.columns outer -->
+
+
+      <div class="container has-text-centered" style="margin-bottom:20px;">
+        <h2 class="title">Result</h2>
+        <p>Coming soon!</p>
+      </div>
+
+
+
+
+  </section>
+
+  <div id="footer"></div>
+
+  <script src="assets/dist/app.js" charset="utf-8"></script>
+</body>
+
+</html>
