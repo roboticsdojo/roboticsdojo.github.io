@@ -150,7 +150,7 @@ const Members = () => {
     <>
       <section className="section">
         <div className="container has-text-centered">
-          <h2 className="title">Members</h2>
+          <h2 className="title">Team</h2>
 
           <div className="card article"> 
           <div style={{marginBottom: "20px"}}>
