@@ -294,10 +294,10 @@ const Teams2025 = () => {
           image: "anilla",
         },
         {
-          name: "Desmond Mose",
+          name: "Allan Makwaka",
           department:
-            "The Technical University of Kenya, Dip Tech Mechatronics, 3rd",
-          image: "desmond",
+            "The Technical University of Kenya, Mechatronic Engineering, 3rd",
+          image: "placeholder",
         },
         {
           name: "",
