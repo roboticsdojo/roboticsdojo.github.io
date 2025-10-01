@@ -31,15 +31,6 @@ class App extends Component {
             <Nav.Link className="navbar-item" href="about.html">
               About
             </Nav.Link>
-            <Nav.Link className="navbar-item" href="team.html">
-              Team 
-            </Nav.Link>
-            <Nav.Link className="navbar-item" href="training.html">
-              Training
-            </Nav.Link>
-            <Nav.Link className="navbar-item" href="research.html">
-              Research 
-            </Nav.Link>
             <div className="navbar-item had-dropdown is-hoverable" style={{padding: '0'}}>
               <div className="navbar-link">Competition</div>
               <div className="navbar-dropdown">
@@ -49,6 +40,15 @@ class App extends Component {
                 <Nav.Link className="navbar-item" href="competition2022.html">2022</Nav.Link>
               </div>
             </div>
+            <Nav.Link className="navbar-item" href="training.html">
+              Training
+            </Nav.Link>
+            <Nav.Link className="navbar-item" href="research.html">
+              Research 
+            </Nav.Link>
+            <Nav.Link className="navbar-item" href="team.html">
+              Team 
+            </Nav.Link>
             <Nav.Link className="navbar-item" href="https://roboticsdojo.substack.com" target="_blank">
               Blog 
             </Nav.Link>
