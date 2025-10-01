@@ -297,7 +297,7 @@ const Teams2025 = () => {
           name: "Allan Makwaka",
           department:
             "The Technical University of Kenya, Mechatronic Engineering, 3rd",
-          image: "placeholder",
+          image: "allan_makwaka",
         },
         {
           name: "",
