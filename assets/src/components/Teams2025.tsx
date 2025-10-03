@@ -33,9 +33,9 @@ const Teams2025 = () => {
       name: "KNIGHTS",
       comment: "Human Inspiration, Robotic Precision",
       leader: {
-        name: "Gareth Kipkoech",
+        name: "Fundi Brian",
         department: "JKUAT Mechatronics, 4th",
-        image: "gareth_kipkoech",
+        image: "fundi_brian",
       },
       members: [
         {
@@ -44,9 +44,9 @@ const Teams2025 = () => {
           image: "dismas",
         },
         {
-          name: "Fundi Brian",
+          name: "Gareth Kipkoech",
           department: "JKUAT Mechatronics, 4th",
-          image: "fundi_brian",
+          image: "gareth_kipkoech",
         },
         {
           name: "Amos Owino",
