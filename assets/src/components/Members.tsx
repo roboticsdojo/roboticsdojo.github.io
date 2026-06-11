@@ -22,6 +22,52 @@ type MemberInfo = {
 const Members = () => {
   const teamsInfo: TeamsInfo[] = [
     {
+      name: "Interns 2026",
+      comment: "Interns 2026",
+      leader: {
+        name: "Dickson Kabiru",
+        department: "JKUAT BSc, COIN 2nd",
+        image: "2026/dickson",
+      },
+      members: [
+        {
+          name: "Joan Akello Ouma",
+          department: "JKUAT BSc, ECE 4th",
+          image: "2026/joan",
+        },
+        {
+          name: "Karani Kibe",
+          department: "KU BSc, Biomedical 4th",
+          image: "2026/karani",
+        },
+        {
+          name: "Amy Gakenia Kibara",
+          department: "JKUAT BSc, MT 3rd",
+          image: "2026/amy",
+        },
+        {
+          name: "Jacque Ndinda Kyalo",
+          department: "JKUAT BSc, EEE 2nd",
+          image: "2026/jacque",
+        },
+        {
+          name: "Fred Wanjeri",
+          department: "JKUAT BSc, MT 4th",
+          image: "2026/fred",
+        },
+        {
+          name: "Mututa Emmanuel Mumo",
+          department: "JKUAT BSc, MT 3rd",
+          image: "2026/emmanuel",
+        },
+        {
+          name: "Nikita Kamau",
+          department: "JKUAT BSc, TIE 4th",
+          image: "2026/nikita",
+        },
+      ],
+    },
+    {
       name: "Interns 2025",
       comment: "Interns 2025",
       leader: {
