@@ -340,9 +340,9 @@ const Members = () => {
 
 
             <div className="card-content">
-              {teamsInfo.map((team: TeamsInfo) => {
+              {teamsInfo.map((team: TeamsInfo, ti: number) => {
                 return (
-                  <div>
+                  <div key={team.name + ti}>
                     <h3 className="subtitle">{team.name}</h3>
 
                     <div className="tile is-ancestor">
@@ -352,6 +352,7 @@ const Members = () => {
                             <img
                               className="is-rounded"
                               src={"image/team/" + team.leader.image + ".webp"}
+                              alt={team.leader.name}
                             />
                           </figure>
                           <p className="is-size-6">{team.leader.name}</p>
@@ -362,11 +363,12 @@ const Members = () => {
                         </article>
                       </div>
 
-                      {team.members.map((member: MemberInfo) => {
+                      {team.members.map((member: MemberInfo, mi: number) => {
                         let membersDOM;
                         if (member.name.length === 0) {
                           membersDOM = (
                             <div
+                              key={mi}
                               className="tile is-parent is-hidden-mobile"
                               style={{ visibility: "hidden" }}
                             >
@@ -375,21 +377,21 @@ const Members = () => {
                                   <img
                                     className="is-rounded"
                                     src="image/member/placeholder.webp"
+                                    alt=""
                                   />
                                 </figure>
-                                <p className="is-size-6"></p>
-                                <p className="is-size-7"></p>
                               </article>
                             </div>
                           );
                         } else {
                           membersDOM = (
-                            <div className="tile is-parent">
+                            <div key={mi} className="tile is-parent">
                               <article className="tile is-child has-text-centered has-image-centered">
                                 <figure className="image is-96x96 container">
                                   <img
                                     className="is-rounded"
                                     src={"image/team/" + member.image + ".webp"}
+                                    alt={member.name}
                                   />
                                 </figure>
                                 <p className="is-size-6">{member.name}</p>

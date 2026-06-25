@@ -43,7 +43,7 @@ const Footer = () => {
             </a>
             <a
               target="_blank"
-              href="http://github.com/roboticsdojo"
+              href="https://github.com/roboticsdojo"
               style={{ padding: "10px" }}
             >
               <i className="fab fa-github fa-2x"></i>
@@ -78,7 +78,7 @@ const Footer = () => {
             </h2>
             <ul>
               <li>
-                <a href="http://www.jkuat.ac.ke">
+                <a href="https://www.jkuat.ac.ke">
                   Jomo Kenyatta University of Agriculture and Technology (JKUAT)
                 </a>
               </li>

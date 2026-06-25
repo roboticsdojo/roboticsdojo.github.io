@@ -1,61 +1,64 @@
-import React, { Component } from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import React, { useEffect } from "react";
 
-class App extends Component {
-  render() {
-    return (
-      <section className="container">
-        <Navbar
-          className="navbar"
-          role="navigation"
-          aria-label="main navigation"
+const Navbar = () => {
+  useEffect(() => {
+    const burgers = Array.from(document.querySelectorAll<HTMLElement>(".navbar-burger"));
+    burgers.forEach((burger) => {
+      burger.addEventListener("click", () => {
+        const targetId = burger.dataset.target;
+        if (!targetId) return;
+        const menu = document.getElementById(targetId);
+        burger.classList.toggle("is-active");
+        menu?.classList.toggle("is-active");
+      });
+    });
+  }, []);
+
+  return (
+    <nav className="navbar container" role="navigation" aria-label="main navigation">
+      <div className="navbar-brand">
+        <a className="navbar-item" href="/">
+          <img src="image/logo/logo2.webp" alt="Robotics Dojo" />
+        </a>
+        <a
+          role="button"
+          className="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarMenu"
         >
-          <div className="navbar-brand">
-            <Nav.Link className="navbar-item" href="/">
-              <img src="image/logo/logo2.webp" />
-            </Nav.Link>
-
-            <Nav.Link
-              role="button"
-              className="navbar-burger"
-              aria-label="menu"
-              aria-expanded="false"
-              data-target="navbarBasicExample"
-            >
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </Nav.Link>
-          </div>
-          <Nav id="navbarBasicExample" className="navbar-menu navbar-end">
-            <Nav.Link className="navbar-item" href="about.html">
-              About
-            </Nav.Link>
-            <div className="navbar-item had-dropdown is-hoverable" style={{padding: '0'}}>
-              <div className="navbar-link">Competition</div>
-              <div className="navbar-dropdown">
-                <Nav.Link className="navbar-item" href="competition2025.html">2025</Nav.Link>
-                <Nav.Link className="navbar-item" href="competition2024.html">2024</Nav.Link>
-                <Nav.Link className="navbar-item" href="competition2023.html">2023</Nav.Link>
-                <Nav.Link className="navbar-item" href="competition2022.html">2022</Nav.Link>
-              </div>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarMenu" className="navbar-menu">
+        <div className="navbar-end">
+          <a className="navbar-item" href="about.html">About</a>
+          <div className="navbar-item has-dropdown is-hoverable" style={{ padding: "0" }}>
+            <a className="navbar-link">Competition</a>
+            <div className="navbar-dropdown">
+              <a className="navbar-item" href="competition2025.html">2025</a>
+              <a className="navbar-item" href="competition2024.html">2024</a>
+              <a className="navbar-item" href="competition2023.html">2023</a>
+              <a className="navbar-item" href="competition2022.html">2022</a>
             </div>
-            <Nav.Link className="navbar-item" href="training.html">
-              Training
-            </Nav.Link>
-            <Nav.Link className="navbar-item" href="research.html">
-              Research 
-            </Nav.Link>
-            <Nav.Link className="navbar-item" href="team.html">
-              Team 
-            </Nav.Link>
-            <Nav.Link className="navbar-item" href="https://roboticsdojo.substack.com" target="_blank">
-              Blog 
-            </Nav.Link>
-          </Nav>
-        </Navbar>
-      </section>
-    );
-  }
-}
-export default App;
+          </div>
+          <a className="navbar-item" href="training.html">Training</a>
+          <a className="navbar-item" href="research.html">Research</a>
+          <a className="navbar-item" href="team.html">Team</a>
+          <a
+            className="navbar-item"
+            href="https://roboticsdojo.substack.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Blog
+          </a>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
