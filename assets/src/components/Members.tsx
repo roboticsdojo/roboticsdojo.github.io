@@ -311,12 +311,19 @@ const Members = () => {
                 </article>
               </div>
 
-              <div
-                className="tile is-parent is-hidden-mobile"
-                style={{ visibility: "hidden" }}
-              >
-                <article className="tile is-child has-text-centered has-image-centered"></article>
+              <div className="tile is-parent">
+                <article className="tile is-child has-text-centered has-image-centered">
+                  <figure className="image is-96x96 container">
+                    <img className="is-rounded" src="image/staff/billy.webp" />
+                  </figure>
+                  <p className="is-size-6">Billy Oluoch</p>
+                  <p className="is-size-7">
+                  AFRICA-ai-JAPAN Project
+                  </p>
+                </article>
               </div>
+
+
               <div
                 className="tile is-parent is-hidden-mobile"
                 style={{ visibility: "hidden" }}
