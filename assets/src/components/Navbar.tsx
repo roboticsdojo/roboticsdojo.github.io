@@ -38,6 +38,7 @@ const Navbar = () => {
           <div className="navbar-item has-dropdown is-hoverable" style={{ padding: "0" }}>
             <a className="navbar-link">Competition</a>
             <div className="navbar-dropdown">
+              <a className="navbar-item" href="competition2026.html">2026</a>
               <a className="navbar-item" href="competition2025.html">2025</a>
               <a className="navbar-item" href="competition2024.html">2024</a>
               <a className="navbar-item" href="competition2023.html">2023</a>

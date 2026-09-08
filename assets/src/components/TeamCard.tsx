@@ -57,6 +57,11 @@ const PersonTile = ({
             className="is-rounded"
             src={`${imageBasePath}${person.image}.webp`}
             alt={person.name}
+            onError={(e) => {
+              const img = e.currentTarget;
+              if (img.src.endsWith("image/member/placeholder.webp")) return;
+              img.src = "image/member/placeholder.webp";
+            }}
           />
         </figure>
         <p className="is-size-6">{person.name}</p>
