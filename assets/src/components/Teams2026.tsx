@@ -92,6 +92,17 @@ const Teams2026 = () => {
         { name: "", department: "", image: "" },
       ],
     },
+    {
+      name: "Auracle",
+      comment: "Map. Think. Move.",
+      leader: { name: "Frederick Wanjeri", department: "JKUAT Mechatronics", image: "fred" },
+      members: [
+        { name: "Amy Kibara", department: "JKUAT Mechatronics", image: "amy" },
+        { name: "Emmanuel Mututa", department: "JKUAT Mechatronics", image: "emmanuel" },
+        { name: "Jacque Kyalo", department: "JKUAT Electrical and Electronic Engineering", image: "jacque" },
+        { name: "", department: "", image: "" },
+      ],
+    },
   ];
 
   return (
