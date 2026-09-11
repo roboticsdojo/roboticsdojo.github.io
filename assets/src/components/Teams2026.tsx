@@ -103,6 +103,17 @@ const Teams2026 = () => {
         { name: "", department: "", image: "" },
       ],
     },
+    {
+      name: "Zingira",
+      comment: "Build in Kenya. Engineered for impact.",
+      leader: { name: "Dickson Kabiru", department: "JKUAT Physics", image: "dickson" },
+      members: [
+        { name: "Joan Ouma", department: "JKUAT Electronic and Computer Engineering", image: "joan" },
+        { name: "Nikita Kamau", department: "JKUAT Telecommunication and Information Engineering", image: "nikita" },
+        { name: "Lewis Karani", department: "KU Biomedical Engineering", image: "kibe" },
+        { name: "", department: "", image: "" },
+      ],
+    },
   ];
 
   return (
