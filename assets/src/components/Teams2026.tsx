@@ -114,6 +114,17 @@ const Teams2026 = () => {
         { name: "", department: "", image: "" },
       ],
     },
+    {
+      name: "Saifee robotics",
+      comment: "Innovate, Build, Conquer",
+      leader: { name: "Burhanuddin Hardwarewala", department: "Aljamea-Tus-Saifiyah", image: "burhanuddin_hardwarewala" },
+      members: [
+        { name: "Murtaza Leelwala", department: "Aljamea-Tus-Saifiyah", image: "murtaza_leelwala" },
+        { name: "Hamza Bharmal", department: "Aljamea-Tus-Saifiyah", image: "hamza_bharmal" },
+        { name: "Ali asgher Simari", department: "Aljamea-Tus-Saifiyah", image: "ali_asgher_simari" },
+        { name: "Ibrahim deesawala", department: "Aljamea-Tus-Saifiyah", image: "ibrahim_deesawala" },
+      ],
+    },
   ];
 
   return (
