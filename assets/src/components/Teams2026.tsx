@@ -71,17 +71,6 @@ const Teams2026 = () => {
       ],
     },
     {
-      name: "Team Aurora",
-      comment: "Like Aurora in the cold polar regions, we shine regardless!",
-      leader: { name: "Eugene Gusmao Odhiambo", department: "Multimedia University of Kenya, Engineering and Technology", image: "eugene_gusmao-odhiambo-2" },
-      members: [
-        { name: "Immaculate Mwangi", department: "Multimedia University of Kenya, Engineering and Technology", image: "immaculate_mwangi" },
-        { name: "Dennis Rono", department: "Multimedia University of Kenya, Engineering and Technology", image: "dennis_rono" },
-        { name: "Richard Oloo", department: "Multimedia University of Kenya, Engineering and Technology", image: "richard_oloo" },
-        { name: "Kelvian Wesale", department: "Multimedia University of Kenya, Engineering and Technology", image: "kelvian_wesale" },
-      ],
-    },
-    {
       name: "Eigen",
       comment: "Inherent Precision, Invariant Purpose",
       leader: { name: "Victoria Rotich", department: "JKUAT Telecommunication and Information Engineering", image: "victoria_rotich" },
