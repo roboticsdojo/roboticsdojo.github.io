@@ -64,9 +64,9 @@ const Teams2026 = () => {
       comment: "Focusing on innovation, automation and dominate",
       leader: { name: "Jane Kabuchi Maina", department: "Jeremiah Nyaga National Polytechnic, Electrical", image: "jane_kabuchi-maina" },
       members: [
-        { name: "Morris Wachira Mwaniki", department: "Jeremiah Nyaga National Polytechnic, Electrical", image: "morris_wachira-mwaniki" },
         { name: "Francisco Mbugua Ngigi", department: "Jeremiah Nyaga National Polytechnic, Electrical and Electronics", image: "francisco_mbugua_ngigi" },
-        { name: "", department: "", image: "" },
+        { name: "Andrew Munyao", department: "Jeremiah Nyaga National Polytechnic, Telecommunication Engineering", image: "andrew_munyao" },
+        { name: "Ephantus Kariuki", department: "Jeremiah Nyaga National Polytechnic, Telecommunication Engineering", image: "ephantus_kariuki" },
         { name: "", department: "", image: "" },
       ],
     },
