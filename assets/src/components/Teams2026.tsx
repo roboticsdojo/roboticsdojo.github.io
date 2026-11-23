@@ -11,7 +11,6 @@ const Teams2026 = () => {
       members: [
         { name: "Iregi Junior Mwenja", department: "JKUAT Electrical and Electronic Engineering", image: "iregi_junior" },
         { name: "Gideon Juma Mosomi", department: "JKUAT Electrical and Electronic Engineering", image: "gideon_juma" },
-        { name: "James Ndirangu", department: "JKUAT Mechatronics Engineering", image: "james_ndirangu" },
         { name: "Victor Kinyua", department: "JKUAT Mechatronics Engineering", image: "victor_kinyua" },
       ],
     },
