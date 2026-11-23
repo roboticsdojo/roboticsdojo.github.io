@@ -178,14 +178,14 @@
               </a>
             </div>
             <div class="column is-4">
-              <a class="playlist-item" href="https://www.youtube.com/watch?v=XN3-9IhzEN8&amp;list=PLXOSaZqgUfnE" data-video="XN3-9IhzEN8" data-index="5" target="_blank">
-                <figure class="image is-16by9"><img src="https://i.ytimg.com/vi/XN3-9IhzEN8/mqdefault.jpg" alt="Tetsuzakura Knights" loading="lazy"></figure>
+              <a class="playlist-item" href="https://www.youtube.com/watch?v=6cPKw9veckk" data-video="6cPKw9veckk" target="_blank">
+                <figure class="image is-16by9"><img src="https://i.ytimg.com/vi/6cPKw9veckk/mqdefault.jpg" alt="Tetsuzakura Knights" loading="lazy"></figure>
                 <span class="playlist-item-title">4. Tetsuzakura Knights</span>
               </a>
             </div>
             <div class="column is-4">
-              <a class="playlist-item" href="https://www.youtube.com/watch?v=YtQBRRCZis4&amp;list=PLXOSaZqgUfnE" data-video="YtQBRRCZis4" data-index="4" target="_blank">
-                <figure class="image is-16by9"><img src="https://i.ytimg.com/vi/YtQBRRCZis4/mqdefault.jpg" alt="NOMAD" loading="lazy"></figure>
+              <a class="playlist-item" href="https://www.youtube.com/watch?v=O_hRSAbAcUA" data-video="O_hRSAbAcUA" target="_blank">
+                <figure class="image is-16by9"><img src="https://i.ytimg.com/vi/O_hRSAbAcUA/mqdefault.jpg" alt="NOMAD" loading="lazy"></figure>
                 <span class="playlist-item-title">5. NOMAD</span>
               </a>
             </div>
@@ -202,8 +202,8 @@
               </a>
             </div>
             <div class="column is-4">
-              <a class="playlist-item" href="https://www.youtube.com/watch?v=Al_eqidn1DE&amp;list=PLXOSaZqgUfnE" data-video="Al_eqidn1DE" data-index="1" target="_blank">
-                <figure class="image is-16by9"><img src="https://i.ytimg.com/vi/Al_eqidn1DE/mqdefault.jpg" alt="Auracle" loading="lazy"></figure>
+              <a class="playlist-item" href="https://www.youtube.com/watch?v=B1whYd0AhvE" data-video="B1whYd0AhvE" target="_blank">
+                <figure class="image is-16by9"><img src="https://i.ytimg.com/vi/B1whYd0AhvE/mqdefault.jpg" alt="Auracle" loading="lazy"></figure>
                 <span class="playlist-item-title">8. Auracle</span>
               </a>
             </div>
@@ -233,7 +233,8 @@
           a.addEventListener('click', function (e) {
             e.preventDefault();
             document.getElementById('team-video-player').src =
-              'https://www.youtube.com/embed/' + a.dataset.video + '?list=PLXOSaZqgUfnE&index=' + a.dataset.index + '&autoplay=1';
+              'https://www.youtube.com/embed/' + a.dataset.video +
+              (a.dataset.index ? '?list=PLXOSaZqgUfnE&index=' + a.dataset.index + '&autoplay=1' : '?autoplay=1');
             document.querySelectorAll('#team-video-list .playlist-item').forEach(function (b) { b.classList.remove('is-active'); });
             a.classList.add('is-active');
           });
