@@ -10,6 +10,7 @@ export type TeamInfo = {
   name: string;
   comment: string;
   remark?: string;
+  note?: string;
   jointTeam?: string;
   role?: string;
   leader: PersonInfo;
@@ -88,6 +89,7 @@ const TeamCard = ({ team, imageBasePath, imageSize }: Props) => (
         <p className="is-size-6"><b>{team.name}</b></p>
         <p className="is-size-6"><i>{team.comment}</i></p>
         {team.remark && <p className="is-size-6">(<b>{team.remark}</b>)</p>}
+        {team.note && <p className="is-size-7 has-text-grey">{team.note}</p>}
         {team.jointTeam && (
           <>
             <hr />

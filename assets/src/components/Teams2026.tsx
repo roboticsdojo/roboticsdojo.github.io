@@ -62,6 +62,7 @@ const Teams2026 = () => {
     {
       name: "jnnp robotics innovators",
       comment: "Focusing on innovation, automation and dominate",
+      note: "(self-sponsored)",
       leader: { name: "Jane Kabuchi Maina", department: "Jeremiah Nyaga National Polytechnic, Electrical", image: "jane_kabuchi-maina" },
       members: [
         { name: "Francisco Mbugua Ngigi", department: "Jeremiah Nyaga National Polytechnic, Electrical and Electronics", image: "francisco_mbugua_ngigi" },
@@ -106,6 +107,7 @@ const Teams2026 = () => {
     {
       name: "Saifee robotics",
       comment: "Innovate, Build, Conquer",
+      note: "(self-sponsored)",
       leader: { name: "Burhanuddin Hardwarewala", department: "Aljamea-Tus-Saifiyah", image: "burhanuddin_hardwarewala" },
       members: [
         { name: "Murtaza Leelwala", department: "Aljamea-Tus-Saifiyah", image: "murtaza_leelwala" },
